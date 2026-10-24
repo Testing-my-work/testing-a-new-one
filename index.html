@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Junaid — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --panel: #131722;
+      --line: #232a3b;
+      --text: #e8ebf2;
+      --muted: #8b93a7;
+      --accent: #7cf2c4;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 Inter, system-ui, sans-serif;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+    nav {
+      position: sticky; top: 0; z-index: 10;
+      backdrop-filter: blur(10px);
+      background: rgba(11, 13, 18, .75);
+      border-bottom: 1px solid var(--line);
+    }
+    nav .wrap { display: flex; justify-content: space-between; align-items: center; height: 64px; }
+    .logo { font-family: "Space Grotesk"; font-weight: 700; font-size: 20px; }
+    .logo span { color: var(--accent); }
+    nav ul { display: flex; gap: 28px; list-style: none; font-size: 14px; color: var(--muted); }
+    nav ul a:hover { color: var(--text); }
+
+    header { padding: 120px 0 100px; }
+    .tag {
+      display: inline-block; font-size: 13px; color: var(--accent);
+      border: 1px solid var(--line); border-radius: 99px; padding: 4px 14px; margin-bottom: 24px;
+    }
+    h1 {
+      font-family: "Space Grotesk"; font-weight: 700;
+      font-size: clamp(40px, 7vw, 76px); line-height: 1.05; letter-spacing: -0.02em;
+    }
+    h1 em { font-style: normal; color: var(--accent); }
+    header p { color: var(--muted); max-width: 560px; margin: 24px 0 36px; font-size: 18px; }
+    .btns { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn {
+      padding: 12px 22px; border-radius: 10px; font-weight: 500; font-size: 15px;
+      border: 1px solid var(--line); transition: .2s;
+    }
+    .btn.primary { background: var(--accent); color: #06110c; border-color: var(--accent); }
+    .btn:hover { transform: translateY(-2px); }
+
+    section { padding: 80px 0; border-top: 1px solid var(--line); }
+    h2 { font-family: "Space Grotesk"; font-size: 32px; margin-bottom: 36px; }
+    h2 small { display: block; font-size: 13px; color: var(--accent); font-weight: 500; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 6px; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+      padding: 28px; transition: .25s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-4px); }
+    .card .thumb {
+      height: 140px; border-radius: 10px; margin-bottom: 20px;
+      background: linear-gradient(135deg, var(--c1), var(--c2));
+    }
+    .card h3 { font-family: "Space Grotesk"; font-size: 20px; margin-bottom: 8px; }
+    .card p { color: var(--muted); font-size: 15px; }
+    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+    .chips span { font-size: 12px; color: var(--muted); border: 1px solid var(--line); padding: 3px 10px; border-radius: 99px; }
+
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skills span { background: var(--panel); border: 1px solid var(--line); padding: 10px 18px; border-radius: 10px; font-size: 15px; }
+
+    .contact { text-align: center; }
+    .contact p { color: var(--muted); margin: -20px auto 32px; max-width: 480px; }
+    .contact .btns { justify-content: center; }
+
+    footer { text-align: center; padding: 32px 0; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); }
+
+    @media (max-width: 600px) {
+      .wrap { padding: 0 16px; }
+      nav ul { gap: 16px; }
+      header { padding: 80px 0 60px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrap">
+      <a href="#" class="logo">junaid<span>.</span></a>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="wrap">
+    <div class="tag">● Available for new projects</div>
+    <h1>I build clean,<br><em>fast websites</em><br>that people enjoy.</h1>
+    <p>Developer focused on web apps, automation, and thoughtful interfaces. This page is a quick test deployment.</p>
+    <div class="btns">
+      <a href="#work" class="btn primary">See my work</a>
+      <a href="#contact" class="btn">Get in touch</a>
+    </div>
+  </header>
+
+  <section id="work">
+    <div class="wrap">
+      <h2><small>Selected work</small>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="thumb" style="--c1:#7cf2c4;--c2:#3b82f6"></div>
+          <h3>Pulse Dashboard</h3>
+          <p>Real-time analytics dashboard with live charts and team sharing.</p>
+          <div class="chips"><span>React</span><span>Node</span><span>Postgres</span></div>
+        </div>
+        <div class="card">
+          <div class="thumb" style="--c1:#f472b6;--c2:#8b5cf6"></div>
+          <h3>Shopfront</h3>
+          <p>Minimal e-commerce storefront with fast checkout and CMS.</p>
+          <div class="chips"><span>Next.js</span><span>Stripe</span></div>
+        </div>
+        <div class="card">
+          <div class="thumb" style="--c1:#fbbf24;--c2:#ef4444"></div>
+          <h3>AutoFlow</h3>
+          <p>Workflow automation tool that connects apps and saves hours a week.</p>
+          <div class="chips"><span>Python</span><span>APIs</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2><small>Toolbox</small>Skills</h2>
+      <div class="skills">
+        <span>HTML &amp; CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span>
+        <span>Next.js</span><span>Node.js</span><span>Python</span><span>SQL</span>
+        <span>Git</span><span>UI Design</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2><small>Say hello</small>Let's work together</h2>
+      <p>Have a project in mind? I'd love to hear about it.</p>
+      <div class="btns">
+        <a href="https://github.com/junaidatif04" class="btn primary" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© <span id="y"></span> Junaid · Built with plain HTML &amp; CSS</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
