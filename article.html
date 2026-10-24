@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="no-js" data-field="bone">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Is a Media Façade? · Journal · C°LB</title>
+<meta name="description" content="What Is a Media Façade? A complete guide for modern architecture, from pixel pitch to content and climate.">
+<meta name="theme-color" content="#F1ECE3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%231F3BFF' stroke-width='6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Sans:wdth,wght@75..100,400..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=20261018276">
+<script>
+/* Orbit boot: js flag, reduced motion, and the closing half of the iris page transition (pure CSS animation, so it fails open). */
+(function (d) {
+  var h = d.documentElement; h.classList.remove('no-js'); h.classList.add('js');
+  try {
+    var rm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (rm) h.classList.add('rm');
+    var s = sessionStorage.getItem('orbit-iris');
+    if (s) {
+      sessionStorage.removeItem('orbit-iris');
+      var p = JSON.parse(s);
+      if (!rm && Date.now() - p.t < 4000) {
+        h.style.setProperty('--ix', p.x + '%'); h.style.setProperty('--iy', p.y + '%');
+        h.classList.add('iris-in');
+      }
+    }
+  } catch (e) {}
+})(document);
+</script>
+</head>
+<body class="page-article">
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr" data-content="NAVIGATION: final sitemap labels (max 12 characters each), phone number for the Index menu, 5 product-group names with live counts, search index of products and Journal posts">
+  <a class="hdr__brand" href="index.html" aria-label="C°LB home">
+    <img class="logo logo--d" src="shared/brand/clb-logo-black.svg" alt="" width="73" height="28">
+    <img class="logo logo--l" src="shared/brand/clb-logo-white.svg" alt="" width="73" height="28">
+  </a>
+  <nav class="hdr__nav" aria-label="Main">
+    <ul><li><a href="products.html">Products</a></li><li><a href="solutions.html">Solutions</a></li><li><a href="projects.html#applications">Applications</a></li><li><a href="projects.html">Projects</a></li><li><a href="journal.html" aria-current="page">Journal</a></li><li><a href="about.html">About</a></li></ul>
+  </nav>
+  <div class="hdr__tools">
+    <button class="hdr__icon" type="button" data-search-open aria-label="Search products, projects and the Journal"><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg></button>
+    <a class="hdr__spec" href="contact.html#quote"><span class="hdr__spec-l">Spec list</span><span class="count" data-spec-count>0</span></a>
+    <a class="btn btn--accent btn--sm hdr__quote" data-magnetic href="contact.html#quote"><span>Request a quote</span></a>
+    <button class="hdr__menu" type="button" aria-expanded="false" aria-controls="index-menu" data-menu-btn><span class="hdr__menu-ring" aria-hidden="true"></span><span class="hdr__menu-l">Index</span></button>
+  </div>
+</header>
+
+<div class="menu" id="index-menu" role="dialog" aria-modal="true" aria-label="Site index" hidden>
+  <div class="menu__inner">
+    <nav class="menu__main" aria-label="Site index">
+      <ol>
+        <li><a href="index.html"><i>00</i>Home</a></li>
+        <li><a href="products.html"><i>01</i>Products</a></li>
+        <li><a href="solutions.html"><i>02</i>Solutions</a></li>
+        <li><a href="projects.html#applications"><i>03</i>Applications</a></li>
+        <li><a href="projects.html"><i>04</i>Projects</a></li>
+        <li><a href="journal.html"><i>05</i>Journal</a></li>
+        <li><a href="about.html"><i>06</i>About</a></li>
+        <li><a href="contact.html"><i>07</i>Contact</a></li>
+      </ol>
+    </nav>
+    <div class="menu__side">
+      <div class="menu__block">
+        <h2 class="eyebrow">Product world</h2>
+        <ul class="menu__groups">
+          <li><a href="products.html#indoor">Indoor <span>85</span></a></li>
+          <li><a href="products.html#outdoor">Outdoor <span>64</span></a></li>
+          <li><a href="products.html#industrial">Industrial <span>4</span></a></li>
+          <li><a href="products.html#back-of-house">Back of House <span>11</span></a></li>
+          <li><a href="solutions.html#range">Smart Poles <span>20</span></a></li>
+        </ul>
+      </div>
+      <div class="menu__block">
+        <h2 class="eyebrow">Resources</h2>
+        <ul class="menu__plain">
+          <li><a href="index.html#resources">Catalogue 2026 (PDF)</a></li>
+          <li><a href="product.html#downloads">Datasheets, IES and BIM</a></li>
+          <li><a href="about.html#quality">Certifications</a></li>
+        </ul>
+      </div>
+      <div class="menu__block menu__contact">
+        <a class="num" href="tel:+966114411131">+966 11 441 1131</a>
+        <a href="mailto:info@clb-sa.com">info@clb-sa.com</a>
+        <p>Building 4280, Northern Ring Branch Rd, Hitteen, Riyadh</p>
+      </div>
+    </div>
+    <button class="menu__close" type="button" data-menu-close aria-label="Close index"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+</div>
+
+<main id="main">
+
+<article class="art" aria-labelledby="art-h">
+  <header class="art__head field field--paper" data-field="paper" data-content="ARTICLE HEAD: title ≤90 characters, 35-word standfirst, stream, author name + role + headshot 1:1 ≥400px, publish date, reading time">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="journal.html">Journal</a></li><li><a href="journal.html#media-facade">Media Façade</a></li></ol></nav>
+      <div class="art__meta"><span class="pill pill--cobalt">Media Façade</span><span class="mono small">Guide 01 of 08 · 12 Oct 2026 · 9 min read</span></div>
+      <h1 class="art__h" id="art-h">What Is a Media Façade? <span class="outline">A Complete Guide for Modern Architecture</span></h1>
+      <p class="art__stand">A media façade turns a building’s skin into a screen, a canvas or a slow-moving light sculpture. Here is how they work, what they cost to get right, and the decisions an architect should make before the first pixel is drawn.</p>
+      <div class="art__by">
+        <span class="art__av" aria-hidden="true">AE</span>
+        <span><b>C°LB Application Engineering</b><small class="mono">Façade &amp; controls team, Riyadh</small></span>
+        <button class="chip art__share" type="button" data-share>Copy link</button>
+      </div>
+    </div>
+  </header>
+
+  <figure class="art__hero field field--paper" data-field="paper" data-content="ARTICLE HERO IMAGE: 1 landscape image 21:9 ≥2800px (C°LB project or commissioned render). Brand street scene shown as a labelled sample">
+    <div class="wrap">
+      <div class="art__heroimg"><img src="shared/img/clb/brochure/pole-scene-04.jpg" alt="Glass office tower with continuous linear light along each floor edge" width="2000" height="1333" fetchpriority="high"><span class="art__heropx" aria-hidden="true"></span></div>
+      <figcaption class="mono small muted">Linear light on every slab edge: the simplest form of media façade. Sample visual from the C°LB brochure.</figcaption>
+    </div>
+  </figure>
+
+  <div class="art__wrap field field--paper" data-field="paper" data-content="ARTICLE BODY: 1,200–1,800 words with H2 sections, 2–3 figures ≥1600px with captions, 1 pull quote, 1 table, internal links to products and to the next post in the stream">
+    <div class="wrap art__grid">
+      <aside class="toc" aria-label="On this page">
+        <div class="toc__ring" aria-hidden="true"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" class="rp-bg"/><circle cx="30" cy="30" r="26" class="rp-fg" data-read-ring/></svg><span class="mono" data-read-pct>0%</span></div>
+        <ol class="toc__list">
+          <li><a href="#s1">A building that speaks</a></li>
+          <li><a href="#s2">How it works</a></li>
+          <li><a href="#s3">Choosing the system</a></li>
+          <li><a href="#s4">Designing for the Saudi climate</a></li>
+          <li><a href="#s5">Content is architecture</a></li>
+          <li><a href="#s6">A checklist for day one</a></li>
+        </ol>
+      </aside>
+
+      <div class="prose">
+        <h2 id="s1">A building that speaks</h2>
+        <p>A media façade is any building envelope that uses controllable light to show changing images, colours or patterns. At one end of the scale it is a single line of light along each floor slab; at the other, a full-height LED mesh that plays video to a whole district. What unites them is control: every point of light can be addressed, dimmed and timed.</p>
+        <p>For developers, a façade that can change is a long-term asset. It can announce an opening, mark national celebrations, carry a brand identity or simply breathe slowly through the night. For a city, a good media façade becomes a landmark. A bad one becomes glare.</p>
+
+        <figure class="divider" aria-hidden="true"><svg viewBox="0 0 600 60"><circle cx="30" cy="30" r="22" class="dv-a"/><path d="M90 52a22 22 0 0 1 44 0z" class="dv-b"/><path d="M180 8 202 52h-44z" class="dv-c"/><line x1="240" y1="30" x2="600" y2="30" class="dv-l"/></svg></figure>
+
+        <h2 id="s2">How it works</h2>
+        <p>Every media façade has three layers. <strong>The hardware</strong>: LED points, bars or mesh fixed to the structure. <strong>The control layer</strong>: controllers and data distribution, usually over DMX512, Art-Net or sACN, that tell each pixel what to do. <strong>The content</strong>: the images, video or generative patterns that are mapped onto the building’s exact geometry.</p>
+        <p>The single most important number is <em>pixel pitch</em>, the distance between two points of light. It sets how sharp the image looks, how far away the viewer needs to be, and, more than anything else, the budget.</p>
+
+        <div class="tablewrap">
+          <table class="ptable">
+            <caption>Pixel pitch and viewing distance (rule of thumb, sample)</caption>
+            <thead><tr><th scope="col">Pixel pitch</th><th scope="col">Min. viewing distance</th><th scope="col">Typical use</th><th scope="col">Transparency</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">10 mm</th><td>10–30 m</td><td>Podium screens, retail frontage</td><td>30–50%</td></tr>
+              <tr><th scope="row">25 mm</th><td>25–75 m</td><td>Mid-rise façades, plazas</td><td>50–65%</td></tr>
+              <tr><th scope="row">50 mm</th><td>50–150 m</td><td>Towers seen from highways</td><td>65–80%</td></tr>
+              <tr><th scope="row">100 mm+</th><td>100 m+</td><td>Landmark graphics, slow content</td><td>80%+</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <blockquote class="pull"><span class="pull__ring" aria-hidden="true"></span><p>The best media façades are quiet ninety per cent of the time.</p></blockquote>
+
+        <h2 id="s3">Choosing the system</h2>
+        <p>There are four common families, and the right one depends on the view out as much as the view in.</p>
+        <ul class="dots">
+          <li><strong>Linear graze and slab-edge light.</strong> Low cost, high elegance. Lines of addressable light define the architecture rather than cover it. Our <a href="product.html?p=lrs-series">LRS wall washers</a> are often the starting point.</li>
+          <li><strong>Pixel bars and dots.</strong> Individual points fixed to mullions or a secondary structure. Good transparency, mid resolution.</li>
+          <li><strong>LED mesh.</strong> Flexible stainless mesh with integrated pixels; ideal for large, curved surfaces and video content.</li>
+          <li><strong>Glass-integrated LED.</strong> Pixels laminated into the glazing itself, invisible by day, at a premium.</li>
+        </ul>
+
+        <figure class="fig">
+          <div class="fig__art fx-cobalt" aria-hidden="true"><span class="fig__grid"></span><span class="fig__c"></span></div>
+          <figcaption class="mono small muted">Fig. 2 · The same circle drawn at 10, 25 and 50 mm pitch. Geometric placeholder; Marketing to supply a commissioned render.</figcaption>
+        </figure>
+
+        <h2 id="s4">Designing for the Saudi climate</h2>
+        <p>Surface temperatures on a west-facing façade in Riyadh pass 70 °C in summer. Dust settles on every horizontal edge and sand-laden wind abrades lenses. That changes the specification: IP66 or better, UV-stable optics, drivers rated well above ambient, and a maintenance route for every pixel. We cover this in depth in <a href="journal.html#media-facade">Designing Media Façades for Harsh Climate Conditions</a>.</p>
+
+        <h2 id="s5">Content is architecture</h2>
+        <p>Content is not an afterthought for the marketing team. It should be designed with the building: mapped to its grid, tested at real brightness and planned for the hours it will actually run. Budget for a content strategy, a scheduler and a simple way to switch to a calm ‘architectural’ mode.</p>
+
+        <blockquote class="pull pull--alt"><span class="pull__ring" aria-hidden="true"></span><p>Design the night view with the same care as the day view.</p></blockquote>
+
+        <h2 id="s6">A checklist for day one</h2>
+        <ol class="steps-mini">
+          <li>Define viewing distances and the key viewpoints.</li>
+          <li>Decide the role: identity, art, advertising, or all three.</li>
+          <li>Set a brightness and curfew policy with the municipality.</li>
+          <li>Choose the system family, then the pitch.</li>
+          <li>Plan control, content and maintenance access from the start.</li>
+        </ol>
+        <p>Want a second opinion on a façade concept? Our engineers review drawings and return a feasibility note within a week. <a href="contact.html#spec">Talk to a specialist</a>.</p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<section class="magnet field field--brass section--tight" data-field="brass" data-content="LEAD MAGNET: downloadable PDF checklist (2–4 pages) per stream + email capture">
+  <div class="wrap magnet__grid">
+    <div class="magnet__doc" aria-hidden="true"><span class="magnet__ring"></span><b>Checklist</b><small>Media façade spec</small></div>
+    <div><p class="eyebrow">Free download</p><h2 class="h2">The media façade <span class="outline">spec checklist.</span></h2><p>Four pages, 32 questions to answer before tender. PDF, 1.1 MB.</p><a class="btn btn--accent" href="#" data-dl="Media façade checklist"><span><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download the PDF</span></a></div>
+  </div>
+</section>
+
+<section class="field field--paper section" data-field="paper" data-content="RELATED POSTS: 3 posts, next two in the same stream + one from another stream">
+  <div class="wrap">
+    <div class="rel__head"><div><p class="eyebrow">Keep reading</p><h2 class="h2">Next in <span class="outline">the stream</span></h2></div><a class="link-arrow" href="journal.html">All posts</a></div>
+    <ul class="posts">
+      <li class="post"><a href="article.html"><span class="post__fig post__fig--px fx-cobalt" aria-hidden="true"><span class="px-art"></span></span><span class="post__meta"><span class="pill pill--cobalt">Media Façade</span><span class="mono small">11 min</span></span><span class="post__t h4">Technical Guide: Pixel Pitch, Transparency &amp; LED Modules for Media Façades</span></a></li>
+      <li class="post"><a href="article.html"><span class="post__fig"><img src="shared/img/clb/brochure/pole-scene-04.jpg" alt="" width="2000" height="1333" loading="lazy"></span><span class="post__meta"><span class="pill pill--cobalt">Media Façade</span><span class="mono small">8 min</span></span><span class="post__t h4">Designing Media Façades for Harsh Climate Conditions (Saudi Focus)</span></a></li>
+      <li class="post"><a href="article.html"><span class="post__fig post__fig--rings fx-ink" aria-hidden="true"><span class="rings-art"><i></i><i></i><i></i></span></span><span class="post__meta"><span class="pill pill--ink">Maintenance</span><span class="mono small">9 min</span></span><span class="post__t h4">Common Issues in Existing KNX &amp; Lighting Control Systems (And How to Fix Them)</span></a></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr field field--ink" data-field="ink" data-content="FOOTER: legal entity name and CR number, social links (LinkedIn, Instagram), newsletter provider, privacy and terms pages, response-time promise for the CTA">
+  <div class="ftr__cta wrap">
+    <p class="eyebrow">Next step</p>
+    <h2 class="ftr__h"><span>Let’s draw</span> <span class="outline">some light.</span></h2>
+    <div class="ftr__actions">
+      <a class="btn-orb" data-magnetic href="contact.html#quote"><span class="btn-orb__ring" aria-hidden="true"></span><span class="btn-orb__l">Request<br>a quote</span></a>
+      <div class="ftr__lines">
+        <a class="link-arrow" href="contact.html#spec">Talk to a specialist</a>
+        <a class="link-arrow" href="product.html#downloads">Download datasheets, IES and BIM</a>
+        <a class="link-arrow" href="contact.html#showroom">Visit the Hitteen showroom</a>
+      </div>
+    </div>
+  </div>
+  <div class="ftr__grid wrap">
+    <div class="ftr__brand">
+      <p>Architectural lighting, controls and smart-city infrastructure from Arak Lighting. Riyadh, since 1976.</p>
+      <form class="nl" data-newsletter novalidate aria-label="Journal newsletter">
+        <label class="sr-only" for="nl-email">Email address</label>
+        <input id="nl-email" type="email" required placeholder="Email for the monthly Journal" autocomplete="email">
+        <button type="submit" aria-label="Subscribe"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </form>
+    </div>
+    <div class="ftr__col">
+      <h2>Products</h2>
+      <ul><li><a href="products.html#indoor">Indoor</a></li><li><a href="products.html#outdoor">Outdoor</a></li><li><a href="products.html#industrial">Industrial</a></li><li><a href="products.html#back-of-house">Back of House</a></li><li><a href="solutions.html#range">Smart Poles</a></li></ul>
+    </div>
+    <div class="ftr__col">
+      <h2>Solutions</h2>
+      <ul><li><a href="journal.html#media-facade">Media Façade</a></li><li><a href="solutions.html">Smart Poles</a></li><li><a href="index.html#solutions">Lighting Controls</a></li><li><a href="journal.html#maintenance">Maintenance</a></li><li><a href="projects.html">Projects</a></li></ul>
+    </div>
+    <div class="ftr__col">
+      <h2>Company</h2>
+      <ul><li><a href="about.html">Story</a></li><li><a href="about.html#quality">Certifications</a></li><li><a href="about.html#vendors">Vendor registrations</a></li><li><a href="journal.html">Journal</a></li><li><a href="index.html#resources">Catalogue 2026</a></li></ul>
+    </div>
+    <div class="ftr__col">
+      <h2>Contact</h2>
+      <ul>
+        <li><a class="num" href="tel:+966114411131">+966 11 441 1131</a></li>
+        <li><a href="mailto:info@clb-sa.com">info@clb-sa.com</a></li>
+        <li><a href="contact.html#showroom">Building 4280, Hitteen</a></li>
+        <li><a href="contact.html#showroom">Sun–Thu · 9:00–18:00</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ftr__mark wrap" aria-hidden="true">
+    <img src="shared/brand/clb-logo-white.svg" alt="" width="624" height="240" loading="lazy">
+    <span class="ftr__orbit"></span>
+  </div>
+  <div class="ftr__legal wrap">
+    <span>© 2026 Arak Lighting. C°LB is a brand of Arak Lighting, Riyadh. Prototype “Orbit”, specs and projects shown are samples.</span>
+    <ul><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="#" aria-label="C°LB on LinkedIn">LinkedIn</a></li><li><a href="#" aria-label="C°LB on Instagram">Instagram</a></li></ul>
+  </div>
+</footer>
+
+<button type="button" class="cm-fab" aria-pressed="false" title="Outline every content slot Marketing must supply"><span class="cm-fab__dot" aria-hidden="true"></span><span class="cm-fab__l">Content map</span><span class="cm-fab__n"></span></button>
+<p class="cm-banner" role="status"><span><b>Content map is on.</b> Every dashed outline is a content slot. The blue tag says what Marketing must supply, and in which format.</span></p>
+<div class="toast" role="status" aria-live="polite"><span class="toast__dot" aria-hidden="true"></span><span data-toast-msg>Added to spec list</span><a href="contact.html#quote">View list</a></div>
+
+<div class="search" id="search" role="dialog" aria-modal="true" aria-label="Search" hidden>
+  <div class="search__inner wrap">
+    <label class="sr-only" for="search-q">Search</label>
+    <input id="search-q" class="search__q" type="search" placeholder="Search 164 luminaires, poles, guides…" autocomplete="off">
+    <p class="search__hint">Try “spot”, “IP67”, “bollard”, “KNX”.</p>
+    <ul class="search__res" data-search-results></ul>
+    <button class="search__close" type="button" data-search-close aria-label="Close search"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+</div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__label"></span></div>
+<div class="pool" aria-hidden="true"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0 4.5-4.5M12 15l-4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-prev" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-light" viewBox="0 0 32 32"><circle cx="16" cy="10" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 28l6-13 6 13z" fill="currentColor" opacity=".35"/></symbol>
+<symbol id="i-5g" viewBox="0 0 32 32"><path d="M8 22a11 11 0 0 1 0-12M24 10a11 11 0 0 1 0 12M12 19a5.5 5.5 0 0 1 0-6M20 13a5.5 5.5 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="16" r="2" fill="currentColor"/></symbol>
+<symbol id="i-cctv" viewBox="0 0 32 32"><path d="M5 11l17-5 3 9-17 5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 18l2 6h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="21" cy="11" r="1.6" fill="currentColor"/></symbol>
+<symbol id="i-sensor" viewBox="0 0 32 32"><circle cx="16" cy="16" r="3" fill="currentColor"/><circle cx="16" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3"/><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2" opacity=".5"/></symbol>
+<symbol id="i-screen" viewBox="0 0 32 32"><rect x="7" y="4" width="18" height="22" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 10h10M11 15h10M11 20h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-ev" viewBox="0 0 32 32"><rect x="7" y="5" width="13" height="23" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14.5 10l-3 6h4l-2 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M20 12h3a2 2 0 0 1 2 2v7a2 2 0 0 0 4 0v-9l-3-3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-sos" viewBox="0 0 32 32"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 9v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.5" r="1.6" fill="currentColor"/></symbol>
+<symbol id="i-wifi" viewBox="0 0 32 32"><path d="M4 12a17 17 0 0 1 24 0M8 16.5a11 11 0 0 1 16 0M12 21a5 5 0 0 1 8 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="25" r="2" fill="currentColor"/></symbol>
+</svg>
+
+<script src="assets/main.js?v=20261018276" defer></script>
+<script src="assets/orbit.js?v=20261018276" defer></script>
+</body>
+</html>

@@ -1,0 +1,2481 @@
+[
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Neptune",
+  "slug": "neptune",
+  "variants": [
+   "10-15W",
+   "20W",
+   "30W"
+  ],
+  "image": "shared/img/products/neptune.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/naptune.png?v=1712035476",
+  "url": "https://clb-sa.com/products/neptune"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Aurora-A",
+  "slug": "aurora-round",
+  "variants": [
+   "10W",
+   "15W"
+  ],
+  "image": "shared/img/products/aurora-round.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/auroraa.png?v=1712047454",
+  "url": "https://clb-sa.com/products/aurora-round"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Aurora-B",
+  "slug": "aurora-b",
+  "variants": [
+   "10W",
+   "15W"
+  ],
+  "image": "shared/img/products/aurora-b.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/aurorab.png?v=1712047540",
+  "url": "https://clb-sa.com/products/aurora-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Venus",
+  "slug": "venus",
+  "variants": [
+   "10W",
+   "20W",
+   "30W",
+   "40W"
+  ],
+  "image": "shared/img/products/venus.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/venus.png?v=1712048563",
+  "url": "https://clb-sa.com/products/venus"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Ghibli A",
+  "slug": "ghibli-a",
+  "variants": [
+   "10W",
+   "15W",
+   "20W",
+   "30W",
+   "50W",
+   "60W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ghiblia.png?v=1712049545",
+  "url": "https://clb-sa.com/products/ghibli-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Ghibli B",
+  "slug": "ghibli-b",
+  "variants": [
+   "10W",
+   "18W",
+   "30W",
+   "40W",
+   "50W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ghoblib.png?v=1712050351",
+  "url": "https://clb-sa.com/products/ghibli-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Flamma",
+  "slug": "flamma",
+  "variants": [
+   "5W",
+   "7W",
+   "12W",
+   "18W",
+   "24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/flamma.png?v=1712053271",
+  "url": "https://clb-sa.com/products/flamma"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Royce A",
+  "slug": "royce",
+  "variants": [
+   "5W",
+   "7W",
+   "15W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/roycea.png?v=1712053398",
+  "url": "https://clb-sa.com/products/royce"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Royce B",
+  "slug": "royce-b",
+  "variants": [
+   "15W",
+   "25W",
+   "35W",
+   "43W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/royceb.png?v=1712053416",
+  "url": "https://clb-sa.com/products/royce-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Royce C",
+  "slug": "royce-c",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/toycec.png?v=1712145985",
+  "url": "https://clb-sa.com/products/royce-c"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Noctis",
+  "slug": "noctis",
+  "variants": [
+   "10W",
+   "15W",
+   "25W",
+   "40W",
+   "55W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/astor.png?v=1711082403",
+  "url": "https://clb-sa.com/products/noctis"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Saturn A",
+  "slug": "saturn-a",
+  "variants": [
+   "12W",
+   "15W",
+   "25W",
+   "36W",
+   "45W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/saturn_1.png?v=1711097288",
+  "url": "https://clb-sa.com/products/saturn-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Saturn B",
+  "slug": "saturn-b",
+  "variants": [
+   "15W",
+   "25W",
+   "36W",
+   "45W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/saturn_2.png?v=1711097301",
+  "url": "https://clb-sa.com/products/saturn-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Downlights",
+  "categorySlug": "downlights",
+  "name": "Sidero",
+  "slug": "sidero",
+  "variants": [
+   "15W",
+   "25W",
+   "36W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sidero_3.png?v=1711094270",
+  "url": "https://clb-sa.com/products/sidero"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Fulgeo",
+  "slug": "fulgeo",
+  "variants": [
+   "7W",
+   "15W",
+   "25W",
+   "35W",
+   "50W"
+  ],
+  "image": "shared/img/products/fulgeo.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/Fulgeo.png?v=1712058354",
+  "url": "https://clb-sa.com/products/fulgeo"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Keros A",
+  "slug": "keros",
+  "variants": [
+   "3W",
+   "5W",
+   "7W"
+  ],
+  "image": "shared/img/products/keros.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/phantoma.png?v=1712055643",
+  "url": "https://clb-sa.com/products/keros"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Keros B",
+  "slug": "keros-b",
+  "variants": [
+   "3W",
+   "5W",
+   "7W"
+  ],
+  "image": "shared/img/products/keros-b.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/keros2.png?v=1712055931",
+  "url": "https://clb-sa.com/products/keros-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Luna A",
+  "slug": "luna-a",
+  "variants": [
+   "Φ37*40",
+   "Φ45*50",
+   "Φ57*65",
+   "Φ69*80"
+  ],
+  "image": "shared/img/products/luna-a.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lunaa.png?v=1712056713",
+  "url": "https://clb-sa.com/products/luna-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Luna B",
+  "slug": "luna-b",
+  "variants": [
+   "Φ45*55",
+   "Φ57*75",
+   "Φ69*85"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lunab.png?v=1712056728",
+  "url": "https://clb-sa.com/products/luna-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Stella A",
+  "slug": "stella-a",
+  "variants": [
+   "Φ68*H52",
+   "Φ68*H62",
+   "Φ80*H53",
+   "Φ80*H73"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/stellaa.png?v=1712057842",
+  "url": "https://clb-sa.com/products/stella-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Stella B",
+  "slug": "stella-b",
+  "variants": [
+   "Φ64*H50",
+   "Φ85*H70",
+   "Φ105*H85"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/stellab.png?v=1712058129",
+  "url": "https://clb-sa.com/products/stella-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Stella C",
+  "slug": "stella-c",
+  "variants": [
+   "Φ90*H77",
+   "Φ90*H97"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/stellac.png?v=1712058172",
+  "url": "https://clb-sa.com/products/stella-c"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Stella D",
+  "slug": "stella-d",
+  "variants": [
+   "90*90*H77",
+   "90*90*H97"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/stellad.png?v=1712058215",
+  "url": "https://clb-sa.com/products/stella-d"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Taurus A",
+  "slug": "taurus-a",
+  "variants": [
+   "7W",
+   "15W",
+   "24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/taurusa.png?v=1712061223",
+  "url": "https://clb-sa.com/products/taurus-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Taurus B",
+  "slug": "taurus-b",
+  "variants": [
+   "7W",
+   "15W",
+   "24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/taurusb.png?v=1712061284",
+  "url": "https://clb-sa.com/products/taurus-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Taurus C",
+  "slug": "taurus-c",
+  "variants": [
+   "15W",
+   "24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/taurusc.png?v=1712061354",
+  "url": "https://clb-sa.com/products/taurus-c"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Taurus D",
+  "slug": "taurus-d",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/taurusd.png?v=1712061407",
+  "url": "https://clb-sa.com/products/taurus-d"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Taurus E",
+  "slug": "taurus-e",
+  "variants": [
+   "7W",
+   "15W",
+   "24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/tauruse.png?v=1712061470",
+  "url": "https://clb-sa.com/products/taurus-e"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Taurus F",
+  "slug": "taurus-f",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/taurusf.png?v=1712149970",
+  "url": "https://clb-sa.com/products/taurus-f"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Levante",
+  "slug": "levante",
+  "variants": [
+   "5W",
+   "12W",
+   "20W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/levante.png?v=1712069948",
+  "url": "https://clb-sa.com/products/levante"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Urus A",
+  "slug": "urus-a",
+  "variants": [
+   "7W",
+   "10W",
+   "18W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/urusa.png?v=1712070080",
+  "url": "https://clb-sa.com/products/urus-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Urus B",
+  "slug": "urus-b",
+  "variants": [
+   "7W",
+   "10W",
+   "18W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/urusb.png?v=1712070383",
+  "url": "https://clb-sa.com/products/urus-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Urus C",
+  "slug": "urus-c-1",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/uruse2.png?v=1712243313",
+  "url": "https://clb-sa.com/products/urus-c-1"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Urus D",
+  "slug": "urus-c",
+  "variants": [
+   "2*6W",
+   "2*10W",
+   "2*15W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/urusc.png?v=1712070847",
+  "url": "https://clb-sa.com/products/urus-c"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Urus E",
+  "slug": "urus-d",
+  "variants": [
+   "3*6W",
+   "3*10W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/urusd.png?v=1712070857",
+  "url": "https://clb-sa.com/products/urus-d"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Vesper A",
+  "slug": "vesper-a",
+  "variants": [
+   "7W",
+   "10W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/vespera.png?v=1712071539",
+  "url": "https://clb-sa.com/products/vesper-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Vesper B",
+  "slug": "vesper-b",
+  "variants": [
+   "7W",
+   "10W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/vesperb.png?v=1712071546",
+  "url": "https://clb-sa.com/products/vesper-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Dawn A",
+  "slug": "dawn-a",
+  "variants": [
+   "10W",
+   "15W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/dawna.png?v=1712072066",
+  "url": "https://clb-sa.com/products/dawn-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Dawn B",
+  "slug": "dawn-b",
+  "variants": [
+   "10W",
+   "15W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/dawnb.png?v=1712072333",
+  "url": "https://clb-sa.com/products/dawn-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Dawn C",
+  "slug": "dawn-c",
+  "variants": [
+   "5W",
+   "10W",
+   "20W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/dawnc.png?v=1712072115",
+  "url": "https://clb-sa.com/products/dawn-c"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Point",
+  "slug": "point",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/point1image.png?v=1712008576",
+  "url": "https://clb-sa.com/products/point"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Dune",
+  "slug": "dune",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/point2image_5d7b7c73-310f-4fed-946c-2ae032ebfa7b.png?v=1712009073",
+  "url": "https://clb-sa.com/products/dune"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Orion",
+  "slug": "orion",
+  "variants": [
+   "12W",
+   "25W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/orion.png?v=1711080100",
+  "url": "https://clb-sa.com/products/orion"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Mirage",
+  "slug": "mirage",
+  "variants": [
+   "10W",
+   "20W",
+   "30W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/mirage_1.png?v=1711079688",
+  "url": "https://clb-sa.com/products/mirage"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Zephyr",
+  "slug": "zephyr",
+  "variants": [
+   "8W",
+   "15W",
+   "24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/Zephyr.png?v=1711092624",
+  "url": "https://clb-sa.com/products/zephyr"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Astron A",
+  "slug": "astron",
+  "variants": [
+   "6W",
+   "12W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/astron_1.png?v=1711093054",
+  "url": "https://clb-sa.com/products/astron"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Astron B",
+  "slug": "astron-b",
+  "variants": [
+   "6W",
+   "12W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/astron_2.png?v=1711093069",
+  "url": "https://clb-sa.com/products/astron-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Lucida A",
+  "slug": "lucida-a",
+  "variants": [
+   "6W",
+   "12W",
+   "20W",
+   "30W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lucida1.png?v=1712010450",
+  "url": "https://clb-sa.com/products/lucida-a"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Lucida B",
+  "slug": "lucida-b",
+  "variants": [
+   "6W×2",
+   "12W×2",
+   "20W×2",
+   "30W×2"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lucidab.png?v=1712010839",
+  "url": "https://clb-sa.com/products/lucida-b"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Lucida C",
+  "slug": "lucida-c",
+  "variants": [
+   "6W×2",
+   "12W×2",
+   "20W×2",
+   "30W×2"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lucidac.png?v=1712010779",
+  "url": "https://clb-sa.com/products/lucida-c"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Lucida D",
+  "slug": "lucida-d",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lucidad_1.png?v=1712011018",
+  "url": "https://clb-sa.com/products/lucida-d"
+ },
+ {
+  "group": "Indoor",
+  "category": "Spotlights",
+  "categorySlug": "spotlights",
+  "name": "Lucida E",
+  "slug": "lucida-e",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lucidae_1.png?v=1712011314",
+  "url": "https://clb-sa.com/products/lucida-e"
+ },
+ {
+  "group": "Indoor",
+  "category": "Magnetic Spotlights",
+  "categorySlug": "magnetic-spotlights",
+  "name": "Albus",
+  "slug": "albus",
+  "variants": [
+   "6W",
+   "12W"
+  ],
+  "image": "shared/img/products/albus.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/albus.png?v=1711073416",
+  "url": "https://clb-sa.com/products/albus"
+ },
+ {
+  "group": "Indoor",
+  "category": "Magnetic Spotlights",
+  "categorySlug": "magnetic-spotlights",
+  "name": "Solis",
+  "slug": "solis",
+  "variants": [
+   "6W",
+   "12W",
+   "15W"
+  ],
+  "image": "shared/img/products/solis.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/solis.png?v=1711073300",
+  "url": "https://clb-sa.com/products/solis"
+ },
+ {
+  "group": "Indoor",
+  "category": "Magnetic Spotlights",
+  "categorySlug": "magnetic-spotlights",
+  "name": "Ignitus",
+  "slug": "ignitus",
+  "variants": [
+   "6W",
+   "12W",
+   "15W",
+   "25W"
+  ],
+  "image": "shared/img/products/ignitus.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ignitus.png?v=1711072148",
+  "url": "https://clb-sa.com/products/ignitus"
+ },
+ {
+  "group": "Indoor",
+  "category": "Magnetic Spotlights",
+  "categorySlug": "magnetic-spotlights",
+  "name": "Verona",
+  "slug": "verona",
+  "variants": [
+   "6W",
+   "12W",
+   "18W",
+   "24W"
+  ],
+  "image": "shared/img/products/verona.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/verona.png?v=1711071560",
+  "url": "https://clb-sa.com/products/verona"
+ },
+ {
+  "group": "Indoor",
+  "category": "Magnetic Spotlights",
+  "categorySlug": "magnetic-spotlights",
+  "name": "Phos",
+  "slug": "phos",
+  "variants": [
+   "12W",
+   "20W",
+   "30W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/phos.png?v=1711070993",
+  "url": "https://clb-sa.com/products/phos"
+ },
+ {
+  "group": "Indoor",
+  "category": "Track Lights",
+  "categorySlug": "track-lights",
+  "name": "TL1 Series",
+  "slug": "tl1-series",
+  "variants": [
+   "10W",
+   "20W"
+  ],
+  "image": "shared/img/products/tl1-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/tl1_tl2_series.png?v=1710074102",
+  "url": "https://clb-sa.com/products/tl1-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Track Lights",
+  "categorySlug": "track-lights",
+  "name": "TL2 Series",
+  "slug": "tl2-series",
+  "variants": [
+   "15W",
+   "25W"
+  ],
+  "image": "shared/img/products/tl2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/tl2_series.png?v=1710102504",
+  "url": "https://clb-sa.com/products/tl2-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Track Lights",
+  "categorySlug": "track-lights",
+  "name": "TL3 Series",
+  "slug": "tl3-series",
+  "variants": [
+   "10W",
+   "20W",
+   "30W",
+   "40W"
+  ],
+  "image": "shared/img/products/tl3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/AKTL401031.png?v=1710128249",
+  "url": "https://clb-sa.com/products/tl3-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Track Lights",
+  "categorySlug": "track-lights",
+  "name": "TL4 Series",
+  "slug": "tl4-series",
+  "variants": [
+   "15W",
+   "25W",
+   "35W"
+  ],
+  "image": "shared/img/products/tl4-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/AKTL351057.png?v=1710128684",
+  "url": "https://clb-sa.com/products/tl4-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Track Lights",
+  "categorySlug": "track-lights",
+  "name": "TL5 Series",
+  "slug": "tl5-series",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/tl5series2.png?v=1712258463",
+  "url": "https://clb-sa.com/products/tl5-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "Emergency Linear Lights",
+  "slug": "emergency-linear-lights",
+  "variants": [
+   "19W",
+   "27W",
+   "38W"
+  ],
+  "image": "shared/img/products/emergency-linear-lights.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ell.png?v=1709709275",
+  "url": "https://clb-sa.com/products/emergency-linear-lights"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "Up & Down Emergency Linear Lights",
+  "slug": "up-down-emergency-linear-lights",
+  "variants": [
+   "9W(Up) 18W(Down)",
+   "13W(Up) 25W(Down)",
+   "13W(Up) 40W(Down)"
+  ],
+  "image": "shared/img/products/up-down-emergency-linear-lights.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/upell.png?v=1710294821",
+  "url": "https://clb-sa.com/products/up-down-emergency-linear-lights"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "S40-A Series",
+  "slug": "s40-a-series",
+  "variants": [
+   "38W",
+   "48W",
+   "56W",
+   "76W"
+  ],
+  "image": "shared/img/products/s40-a-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LS40FD-1-1536x1536_1.png?v=1711408426",
+  "url": "https://clb-sa.com/products/s40-a-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "S40-B Series",
+  "slug": "s40-b-series",
+  "variants": [
+   "38W",
+   "48W",
+   "56W",
+   "76W"
+  ],
+  "image": "shared/img/products/s40-b-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LS40FP-1536x1536.png?v=1711408387",
+  "url": "https://clb-sa.com/products/s40-b-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "S40-C Series",
+  "slug": "s40-d-series-1",
+  "variants": [
+   "11.4W",
+   "20.1W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LS40FD-1-1536x1536_1_359d8677-9893-4cfb-aa80-38db5ffddbf2.png?v=1712308249",
+  "url": "https://clb-sa.com/products/s40-d-series-1"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "S40-D Series",
+  "slug": "s40-c-series",
+  "variants": [
+   "36W",
+   "43W",
+   "54W",
+   "68W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LS40G-1-1536x1536.png?v=1711408354",
+  "url": "https://clb-sa.com/products/s40-c-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "S40-E Series",
+  "slug": "s40-d-series",
+  "variants": [
+   "36W",
+   "43W",
+   "54W",
+   "68W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LS40GW-1-1536x1536.png?v=1711408312",
+  "url": "https://clb-sa.com/products/s40-d-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "E40-A Series",
+  "slug": "e40-a-series",
+  "variants": [
+   "38W",
+   "48W",
+   "56W",
+   "76W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LE40FD-1-1536x1536.png?v=1711408236",
+  "url": "https://clb-sa.com/products/e40-a-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "E40-B Series",
+  "slug": "e40-b-series",
+  "variants": [
+   "38W",
+   "48W",
+   "56W",
+   "76W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LE40FP-1-1536x1536.png?v=1711408192",
+  "url": "https://clb-sa.com/products/e40-b-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "E40-C Series",
+  "slug": "e40-c-series",
+  "variants": [
+   "36W",
+   "45W",
+   "54W",
+   "72W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LE40G-1-1536x1536.png?v=1711408052",
+  "url": "https://clb-sa.com/products/e40-c-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "E40-D Series",
+  "slug": "e40-d-series",
+  "variants": [
+   "36W",
+   "45W",
+   "54W",
+   "72W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LE40GW-1-1536x1536.png?v=1711408002",
+  "url": "https://clb-sa.com/products/e40-d-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "E40-E Series",
+  "slug": "e40-e-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LS40FD-1-1536x1536_1_938517ac-1726-4724-bee0-54883f09822a.png?v=1712310429",
+  "url": "https://clb-sa.com/products/e40-e-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "H40-A Series",
+  "slug": "h40-a-series",
+  "variants": [
+   "48W",
+   "60W",
+   "72W",
+   "96W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LH40FD-1-1536x1536_96a6d6bc-a382-4282-a989-14fc4ec8bb0d.png?v=1711407906",
+  "url": "https://clb-sa.com/products/h40-a-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "H40-B Series",
+  "slug": "h40-b-series",
+  "variants": [
+   "48W",
+   "60W",
+   "72W",
+   "96W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LH40G-1-1536x1536_8a04f68b-6e3b-4436-a9a6-021efd3506cc.png?v=1711407804",
+  "url": "https://clb-sa.com/products/h40-b-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Linear Lights",
+  "categorySlug": "linear-lights",
+  "name": "H40-C Series",
+  "slug": "h40-c-series",
+  "variants": [
+   "47W",
+   "59W",
+   "70W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/LH40G-1-1536x1536.png?v=1711407724",
+  "url": "https://clb-sa.com/products/h40-c-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Panel Lights",
+  "categorySlug": "panel-lights",
+  "name": "Panel Lights",
+  "slug": "panel-lights",
+  "variants": [
+   "595*595*10mm",
+   "1195*295*11mm",
+   "595*1195*11mm"
+  ],
+  "image": "shared/img/products/panel-lights.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/panelights_1.png?v=1711256634",
+  "url": "https://clb-sa.com/products/panel-lights"
+ },
+ {
+  "group": "Indoor",
+  "category": "Strip Lights",
+  "categorySlug": "strip-lights",
+  "name": "Standard Series",
+  "slug": "standard-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": "shared/img/products/standard-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/AKLF7.27880-8mm.png?v=1711941938",
+  "url": "https://clb-sa.com/products/standard-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Strip Lights",
+  "categorySlug": "strip-lights",
+  "name": "High Efficiency Series",
+  "slug": "high-efficiency-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "image": "shared/img/products/high-efficiency-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/highefficiencyimage1.png?v=1711954947",
+  "url": "https://clb-sa.com/products/high-efficiency-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Strip Lights",
+  "categorySlug": "strip-lights",
+  "name": "High Density Series",
+  "slug": "high-density-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "image": "shared/img/products/high-density-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hdimage1.png?v=1711956468",
+  "url": "https://clb-sa.com/products/high-density-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Strip Lights",
+  "categorySlug": "strip-lights",
+  "name": "RGB & RGBW Series",
+  "slug": "rgb-rgbw-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "image": "shared/img/products/rgb-rgbw-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/rgb1.png?v=1711979641",
+  "url": "https://clb-sa.com/products/rgb-rgbw-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Strip Lights",
+  "categorySlug": "strip-lights",
+  "name": "Tunable(Dim to Warm) Series",
+  "slug": "tunabledim-to-warm-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/td1.png?v=1711976186",
+  "url": "https://clb-sa.com/products/tunabledim-to-warm-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Strip Lights",
+  "categorySlug": "strip-lights",
+  "name": "Tunable Series",
+  "slug": "tunable-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ts1.png?v=1711976781",
+  "url": "https://clb-sa.com/products/tunable-series"
+ },
+ {
+  "group": "Indoor",
+  "category": "Strip Lights",
+  "categorySlug": "strip-lights",
+  "name": "Mini Cut Series",
+  "slug": "mini-cut-series",
+  "variants": [
+   "A",
+   "B",
+   "C"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/mc1image.png?v=1711957580",
+  "url": "https://clb-sa.com/products/mini-cut-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "AL-1 Series",
+  "slug": "al-series",
+  "variants": [
+   "3W",
+   "5W",
+   "7W",
+   "9W",
+   "12W",
+   "18W",
+   "24W",
+   "36W"
+  ],
+  "image": "shared/img/products/al-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/al1.png?v=1711825201",
+  "url": "https://clb-sa.com/products/al-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "AL-2 Series",
+  "slug": "al-2-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": "shared/img/products/al-2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/al_2_1image.png?v=1712234080",
+  "url": "https://clb-sa.com/products/al-2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS1 Series",
+  "slug": "ss1-series",
+  "variants": [
+   "A",
+   "B",
+   "C"
+  ],
+  "image": "shared/img/products/ss1-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss1image.png?v=1711745934",
+  "url": "https://clb-sa.com/products/ss1-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS2 Series",
+  "slug": "ss2-series",
+  "variants": [
+   "A",
+   "B",
+   "C"
+  ],
+  "image": "shared/img/products/ss2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss2_image.png?v=1711769095",
+  "url": "https://clb-sa.com/products/ss2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS3 Series",
+  "slug": "ss3-series",
+  "variants": [
+   "A",
+   "B",
+   "C"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss3_image.png?v=1711770188",
+  "url": "https://clb-sa.com/products/ss3-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS4 Series",
+  "slug": "ss4-series",
+  "variants": [
+   "A",
+   "B",
+   "C"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss4image.png?v=1711771239",
+  "url": "https://clb-sa.com/products/ss4-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS5 Series",
+  "slug": "ss5-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss5image.png?v=1711773189",
+  "url": "https://clb-sa.com/products/ss5-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS6 Series",
+  "slug": "ss6",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss6image.png?v=1711819231",
+  "url": "https://clb-sa.com/products/ss6"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS7 Series",
+  "slug": "ss7-series",
+  "variants": [
+   "A",
+   "B",
+   "C"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss7image.png?v=1711822650",
+  "url": "https://clb-sa.com/products/ss7-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "SS8 Series",
+  "slug": "ss8-series",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss8image.png?v=1711823464",
+  "url": "https://clb-sa.com/products/ss8-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Inground Up Lights",
+  "categorySlug": "inground-up-lights",
+  "name": "ss9 Series",
+  "slug": "ss9-series",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/ss9image.png?v=1711823563",
+  "url": "https://clb-sa.com/products/ss9-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Linear Wall Washers",
+  "categorySlug": "linear-wall-washers",
+  "name": "LRS-1 Series",
+  "slug": "lrs-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "image": "shared/img/products/lrs-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lrs56.png?v=1711830839",
+  "url": "https://clb-sa.com/products/lrs-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Linear Wall Washers",
+  "categorySlug": "linear-wall-washers",
+  "name": "LRS-2 Series",
+  "slug": "lrs-2-series",
+  "variants": [],
+  "image": "shared/img/products/lrs-2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lrs_2_series.png?v=1712232967",
+  "url": "https://clb-sa.com/products/lrs-2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Linear Wall Washers",
+  "categorySlug": "linear-wall-washers",
+  "name": "LRR-1 Series",
+  "slug": "lrr-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "image": "shared/img/products/lrr-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lrr56.png?v=1711828964",
+  "url": "https://clb-sa.com/products/lrr-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Linear Wall Washers",
+  "categorySlug": "linear-wall-washers",
+  "name": "LRR-2 Series",
+  "slug": "lrr-2-series",
+  "variants": [],
+  "image": "shared/img/products/lrr-2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lrr_2_series.png?v=1712232482",
+  "url": "https://clb-sa.com/products/lrr-2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Spike Lights",
+  "categorySlug": "spike-lights",
+  "name": "SPK-1 Series",
+  "slug": "spk-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": "shared/img/products/spk-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/spk1.png?v=1711552415",
+  "url": "https://clb-sa.com/products/spk-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Spike Lights",
+  "categorySlug": "spike-lights",
+  "name": "SPK-2 Series",
+  "slug": "spk-2-series",
+  "variants": [],
+  "image": "shared/img/products/spk-2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/spk2_cdb992a1-aa75-480d-9b35-18562076be9f.png?v=1712147366",
+  "url": "https://clb-sa.com/products/spk-2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Bollards",
+  "categorySlug": "bollards",
+  "name": "BL1 Series",
+  "slug": "bl1-series-1",
+  "variants": [
+   "BL1-A",
+   "BL1-B",
+   "BL1-C",
+   "BL1-D"
+  ],
+  "image": "shared/img/products/bl1-series-1.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bl1_a_series.png?v=1710051613",
+  "url": "https://clb-sa.com/products/bl1-series-1"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Bollards",
+  "categorySlug": "bollards",
+  "name": "BL2 Series",
+  "slug": "bl2-series",
+  "variants": [
+   "BL2-A",
+   "BL2-B",
+   "BL2-C",
+   "BL2-D",
+   "BL2-E",
+   "BL2-F",
+   "BL2-G"
+  ],
+  "image": "shared/img/products/bl2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bl2_a_dimensions.png?v=1710052444",
+  "url": "https://clb-sa.com/products/bl2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Bollards",
+  "categorySlug": "bollards",
+  "name": "BL3 Series",
+  "slug": "bl3-series",
+  "variants": [
+   "BL3-A",
+   "BL3-B",
+   "BL3-C",
+   "BL3-D",
+   "BL3-E"
+  ],
+  "image": "shared/img/products/bl3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bl3_a_series.png?v=1710054524",
+  "url": "https://clb-sa.com/products/bl3-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Bollards",
+  "categorySlug": "bollards",
+  "name": "BL4 Series",
+  "slug": "bl4-series",
+  "variants": [
+   "BL4-A",
+   "BL4-B",
+   "BL4-C",
+   "BL4-D",
+   "BL4-E",
+   "BL4-F"
+  ],
+  "image": "shared/img/products/bl4-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bl4_a_series.png?v=1710053929",
+  "url": "https://clb-sa.com/products/bl4-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Bollards",
+  "categorySlug": "bollards",
+  "name": "BL5 Series",
+  "slug": "bl5-series",
+  "variants": [
+   "BL5-A",
+   "BL5-B",
+   "BL5-C",
+   "BL5-D",
+   "BL5-E"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bl5_a_series.png?v=1710054650",
+  "url": "https://clb-sa.com/products/bl5-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Bollards",
+  "categorySlug": "bollards",
+  "name": "BL6 Series",
+  "slug": "bl6-series",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bl6.png?v=1712146592",
+  "url": "https://clb-sa.com/products/bl6-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Brick Lights",
+  "categorySlug": "brick-lights",
+  "name": "BRK Series",
+  "slug": "brk-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": "shared/img/products/brk-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/brk1.png?v=1711569114",
+  "url": "https://clb-sa.com/products/brk-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Flood Lights",
+  "categorySlug": "flood-lights",
+  "name": "FL1 Series",
+  "slug": "fl1",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G"
+  ],
+  "image": "shared/img/products/fl1.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/fl1.png?v=1711882666",
+  "url": "https://clb-sa.com/products/fl1"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Flood Lights",
+  "categorySlug": "flood-lights",
+  "name": "FL2 Series",
+  "slug": "fl2-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I"
+  ],
+  "image": "shared/img/products/fl2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/fl2series.png?v=1712314399",
+  "url": "https://clb-sa.com/products/fl2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Flood Lights",
+  "categorySlug": "flood-lights",
+  "name": "FL3 Series",
+  "slug": "fl3-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "image": "shared/img/products/fl3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/fl3series.png?v=1712312223",
+  "url": "https://clb-sa.com/products/fl3-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Flood Lights",
+  "categorySlug": "flood-lights",
+  "name": "PRJ-A Series",
+  "slug": "prj-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": "shared/img/products/prj-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/prj_1.png?v=1712073778",
+  "url": "https://clb-sa.com/products/prj-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Flood Lights",
+  "categorySlug": "flood-lights",
+  "name": "PRJ-B Series",
+  "slug": "prj-b-series",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/prj_b.png?v=1712074773",
+  "url": "https://clb-sa.com/products/prj-b-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Streetlights",
+  "categorySlug": "streetlights",
+  "name": "ST1 Series",
+  "slug": "st1-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J",
+   "K",
+   "L",
+   "M",
+   "N",
+   "O"
+  ],
+  "image": "shared/img/products/st1-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/st1image.png?v=1711864095",
+  "url": "https://clb-sa.com/products/st1-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Streetlights",
+  "categorySlug": "streetlights",
+  "name": "ST2 Series",
+  "slug": "st2-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I"
+  ],
+  "image": "shared/img/products/st2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/st2.png?v=1711868858",
+  "url": "https://clb-sa.com/products/st2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Handrail Lights",
+  "categorySlug": "handrail-lights",
+  "name": "HRL1 Series",
+  "slug": "hrl-1",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G"
+  ],
+  "image": "shared/img/products/hrl-1.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hrl1.png?v=1711572180",
+  "url": "https://clb-sa.com/products/hrl-1"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Handrail Lights",
+  "categorySlug": "handrail-lights",
+  "name": "HRL2 Series",
+  "slug": "hrl2-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "image": "shared/img/products/hrl2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hrl2.png?v=1711571199",
+  "url": "https://clb-sa.com/products/hrl2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Handrail Lights",
+  "categorySlug": "handrail-lights",
+  "name": "HRL3 Series",
+  "slug": "hrl3-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": "shared/img/products/hrl3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hrl3.png?v=1711571552",
+  "url": "https://clb-sa.com/products/hrl3-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Handrail Lights",
+  "categorySlug": "handrail-lights",
+  "name": "HRL4 Series",
+  "slug": "hrl4-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": "shared/img/products/hrl4-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hrl4image.png?v=1711571675",
+  "url": "https://clb-sa.com/products/hrl4-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Handrail Lights",
+  "categorySlug": "handrail-lights",
+  "name": "HRL5 Series",
+  "slug": "hrl5-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hrl5seriesimage.png?v=1711571782",
+  "url": "https://clb-sa.com/products/hrl5-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Handrail Lights",
+  "categorySlug": "handrail-lights",
+  "name": "HRL6 Series",
+  "slug": "hrl6-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/S18R_1.png?v=1711571870",
+  "url": "https://clb-sa.com/products/hrl6-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Handrail Lights",
+  "categorySlug": "handrail-lights",
+  "name": "HRL7 Series",
+  "slug": "hrl7-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hrl7b.png?v=1711572085",
+  "url": "https://clb-sa.com/products/hrl7-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "612S Series",
+  "slug": "neon-flex",
+  "variants": [],
+  "image": "shared/img/products/neon-flex.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/neonflex.png?v=1711248788",
+  "url": "https://clb-sa.com/products/neon-flex"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "612ST Series",
+  "slug": "neon-flex-612st-series",
+  "variants": [],
+  "image": "shared/img/products/neon-flex-612st-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/612st.png?v=1711249959",
+  "url": "https://clb-sa.com/products/neon-flex-612st-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "1515D Series",
+  "slug": "neon-flex-1515d-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": "shared/img/products/neon-flex-1515d-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/1515dimage.png?v=1711445353",
+  "url": "https://clb-sa.com/products/neon-flex-1515d-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "1010T Series",
+  "slug": "1010t-series",
+  "variants": [],
+  "image": "shared/img/products/1010t-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/1010timage.png?v=1711446248",
+  "url": "https://clb-sa.com/products/1010t-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "1010TW Series",
+  "slug": "1010tw-series",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/1010twseries.png?v=1711446310",
+  "url": "https://clb-sa.com/products/1010tw-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "217S-A Series",
+  "slug": "217s-a-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/217siamge.png?v=1711446882",
+  "url": "https://clb-sa.com/products/217s-a-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "217S-B Series",
+  "slug": "217-b-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/217s_3.png?v=1711447542",
+  "url": "https://clb-sa.com/products/217-b-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "224S Series",
+  "slug": "224s-series",
+  "variants": [
+   "A",
+   "B",
+   "C"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/224s.png?v=1711447891",
+  "url": "https://clb-sa.com/products/224s-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Neon Flex",
+  "categorySlug": "led-flex",
+  "name": "360D Series",
+  "slug": "360d-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/360dimage.png?v=1711448914",
+  "url": "https://clb-sa.com/products/360d-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Step Lights",
+  "categorySlug": "step-lights",
+  "name": "WL1 Series",
+  "slug": "wl1-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "image": "shared/img/products/wl1-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/07.png?v=1711322645",
+  "url": "https://clb-sa.com/products/wl1-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Step Lights",
+  "categorySlug": "step-lights",
+  "name": "WL2 Series",
+  "slug": "wl2-series",
+  "variants": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "image": "shared/img/products/wl2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/012.png?v=1711324161",
+  "url": "https://clb-sa.com/products/wl2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Step Lights",
+  "categorySlug": "step-lights",
+  "name": "WL3 Series",
+  "slug": "wl3-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": "shared/img/products/wl3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/wl3_2_image.png?v=1711326711",
+  "url": "https://clb-sa.com/products/wl3-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Step Lights",
+  "categorySlug": "step-lights",
+  "name": "WL4 Series",
+  "slug": "wl4-series",
+  "variants": [],
+  "image": "shared/img/products/wl4-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/wl4_series_image.png?v=1711327062",
+  "url": "https://clb-sa.com/products/wl4-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Step Lights",
+  "categorySlug": "step-lights",
+  "name": "WL5 Series",
+  "slug": "wl5-series",
+  "variants": [],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/wl5_image.png?v=1711327333",
+  "url": "https://clb-sa.com/products/wl5-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM1 Series",
+  "slug": "sm1-series",
+  "variants": [
+   "8W",
+   "10W",
+   "12W",
+   "15W"
+  ],
+  "image": "shared/img/products/sm1-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm1.png?v=1711333461",
+  "url": "https://clb-sa.com/products/sm1-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM2 Series",
+  "slug": "sm2-series",
+  "variants": [
+   "8W",
+   "10W"
+  ],
+  "image": "shared/img/products/sm2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_image_be142dac-f51c-4922-8861-e28f74c17201.png?v=1711338620",
+  "url": "https://clb-sa.com/products/sm2-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM3 Series",
+  "slug": "sm3-series",
+  "variants": [
+   "18W",
+   "24W",
+   "30W"
+  ],
+  "image": "shared/img/products/sm3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm1_98234b9d-f0c4-40e1-b18d-05762fffe7e0.png?v=1711334474",
+  "url": "https://clb-sa.com/products/sm3-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM4 Series",
+  "slug": "sm4-series",
+  "variants": [
+   "18W",
+   "24W",
+   "30W"
+  ],
+  "image": "shared/img/products/sm4-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_image_b73e35d9-162d-48ce-b83f-ba4780dc5c64.png?v=1711338639",
+  "url": "https://clb-sa.com/products/sm4-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM5 Series",
+  "slug": "sm5-series",
+  "variants": [
+   "32W",
+   "36W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm1_28285323-0bef-4b49-9564-7e168303abe4.png?v=1711335014",
+  "url": "https://clb-sa.com/products/sm5-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM6 Series",
+  "slug": "sm6-series",
+  "variants": [
+   "32W",
+   "36W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_image_c0ff94b1-8859-483b-8c23-62894560834f.png?v=1711338093",
+  "url": "https://clb-sa.com/products/sm6-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM7 Series",
+  "slug": "sm7-series",
+  "variants": [
+   "2*6W",
+   "2*9W",
+   "2*12W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2.png?v=1711336170",
+  "url": "https://clb-sa.com/products/sm7-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM8 Series",
+  "slug": "sm8-series",
+  "variants": [
+   "2*6W",
+   "2*9W",
+   "2*12W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_image_8d6a6985-c92b-4fdd-af53-6976a22631fe.png?v=1711338113",
+  "url": "https://clb-sa.com/products/sm8-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM9 Series",
+  "slug": "sm9-series",
+  "variants": [
+   "2*15W",
+   "2*18W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_ef6385c0-dfa2-4249-93f6-3fe6b26097ea.png?v=1711336763",
+  "url": "https://clb-sa.com/products/sm9-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM10 Series",
+  "slug": "sm10-series",
+  "variants": [
+   "2*15W",
+   "2*18W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_image.png?v=1711338056",
+  "url": "https://clb-sa.com/products/sm10-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM11 Series",
+  "slug": "sm11-series",
+  "variants": [
+   "2*20W",
+   "2*24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_137fd40e-2349-43c2-8369-dbb0b4d2ee67.png?v=1711337096",
+  "url": "https://clb-sa.com/products/sm11-series"
+ },
+ {
+  "group": "Outdoor",
+  "category": "Surface Mounted Wall Lights",
+  "categorySlug": "surface-mounted-wall-lights",
+  "name": "SM12 Series",
+  "slug": "sm12-series",
+  "variants": [
+   "2*20W",
+   "2*24W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/sm2_image_1a72ea72-cd44-445f-90d0-a7a03cb4c4ae.png?v=1711338067",
+  "url": "https://clb-sa.com/products/sm12-series"
+ },
+ {
+  "group": "Industrial",
+  "category": "Industrial",
+  "categorySlug": "industrial",
+  "name": "HBR1 Series",
+  "slug": "hbr1-series",
+  "variants": [
+   "100W",
+   "150W",
+   "200W",
+   "240W"
+  ],
+  "image": "shared/img/products/hbr1-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hbr1_series.png?v=1709677969",
+  "url": "https://clb-sa.com/products/hbr1-series"
+ },
+ {
+  "group": "Industrial",
+  "category": "Industrial",
+  "categorySlug": "industrial",
+  "name": "HBR2 Series",
+  "slug": "hbr2-series",
+  "variants": [
+   "100W",
+   "150W",
+   "200W"
+  ],
+  "image": "shared/img/products/hbr2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hbr2_series.png?v=1709678239",
+  "url": "https://clb-sa.com/products/hbr2-series"
+ },
+ {
+  "group": "Industrial",
+  "category": "Industrial",
+  "categorySlug": "industrial",
+  "name": "HBR3 Series",
+  "slug": "hbr3-series",
+  "variants": [
+   "13500lm",
+   "18000lm",
+   "27000lm",
+   "36000lm"
+  ],
+  "image": "shared/img/products/hbr3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hbr3_series.png?v=1709677678",
+  "url": "https://clb-sa.com/products/hbr3-series"
+ },
+ {
+  "group": "Industrial",
+  "category": "Industrial",
+  "categorySlug": "industrial",
+  "name": "HBL Series",
+  "slug": "hbl-series",
+  "variants": [
+   "50W",
+   "60W",
+   "80W",
+   "100W",
+   "150W"
+  ],
+  "image": "shared/img/products/hbl-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/hbl_series.png?v=1709678779",
+  "url": "https://clb-sa.com/products/hbl-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BH1 Series",
+  "slug": "bh1-series",
+  "variants": [
+   "18W",
+   "30W"
+  ],
+  "image": "shared/img/products/bh1-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bh1_series.png?v=1709517721",
+  "url": "https://clb-sa.com/products/bh1-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BH2 Series",
+  "slug": "bh2-series-1",
+  "variants": [],
+  "image": "shared/img/products/bh2-series-1.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bh1_series_b7a94680-55f2-49c8-8325-455cb0718874.png?v=1712258881",
+  "url": "https://clb-sa.com/products/bh2-series-1"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BH3 Series",
+  "slug": "bh2-series",
+  "variants": [
+   "30W"
+  ],
+  "image": "shared/img/products/bh2-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bh2_series.png?v=1709517481",
+  "url": "https://clb-sa.com/products/bh2-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BH4 Series",
+  "slug": "bh3-series",
+  "variants": [
+   "10W"
+  ],
+  "image": "shared/img/products/bh3-series.jpg",
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bh3_series.png?v=1709602377",
+  "url": "https://clb-sa.com/products/bh3-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BH5 Series",
+  "slug": "bh5-series",
+  "variants": [
+   "A",
+   "B"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bh6.png?v=1712259417",
+  "url": "https://clb-sa.com/products/bh5-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BH6 Series",
+  "slug": "bh4-series",
+  "variants": [
+   "D222x66mm",
+   "D275x80mm",
+   "D350x107mm"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bh4_series_2.png?v=1712259488",
+  "url": "https://clb-sa.com/products/bh4-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "E Series",
+  "slug": "f-series",
+  "variants": [
+   "600X80X75mm",
+   "1200X80X75mm",
+   "1500X80X75mm",
+   "1800X80X75mm"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/e_series_1.png?v=1709603333",
+  "url": "https://clb-sa.com/products/f-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "F Series",
+  "slug": "f-series-1",
+  "variants": [
+   "20W",
+   "40W",
+   "56W",
+   "62W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/f_series.png?v=1710129023",
+  "url": "https://clb-sa.com/products/f-series-1"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BT1 Series",
+  "slug": "bt1-series",
+  "variants": [
+   "10W",
+   "32W",
+   "56W",
+   "62W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bt1_series.png?v=1709603205",
+  "url": "https://clb-sa.com/products/bt1-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "BT2 Series",
+  "slug": "bt2-series",
+  "variants": [
+   "10W",
+   "32W",
+   "56W",
+   "62W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/bh2_series_e9ea32ca-7621-4171-8f76-b89208ea727a.png?v=1709603697",
+  "url": "https://clb-sa.com/products/bt2-series"
+ },
+ {
+  "group": "Back of House",
+  "category": "Back of House",
+  "categorySlug": "back-of-house",
+  "name": "LG Series",
+  "slug": "lg-series",
+  "variants": [
+   "10W",
+   "17W",
+   "28W",
+   "32W"
+  ],
+  "image": null,
+  "remoteImage": "https://cdn.shopify.com/s/files/1/0858/5425/7425/files/lg_series.png?v=1709604202",
+  "url": "https://clb-sa.com/products/lg-series"
+ }
+]

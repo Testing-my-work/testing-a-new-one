@@ -1,166 +1,653 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr" class="no-js" data-field="bone">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Junaid — Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #0b0d12;
-      --panel: #131722;
-      --line: #232a3b;
-      --text: #e8ebf2;
-      --muted: #8b93a7;
-      --accent: #7cf2c4;
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C°LB · Light is geometry</title>
+<meta name="description" content="C°LB architectural luminaires, lighting controls and smart poles, engineered in Riyadh since 1976 for hospitality, retail, workplace and urban projects.">
+<meta name="theme-color" content="#F1ECE3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%231F3BFF' stroke-width='6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Sans:wdth,wght@75..100,400..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=20261018276">
+<script>
+/* Orbit boot: js flag, reduced motion, and the closing half of the iris page transition (pure CSS animation, so it fails open). */
+(function (d) {
+  var h = d.documentElement; h.classList.remove('no-js'); h.classList.add('js');
+  try {
+    var rm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (rm) h.classList.add('rm');
+    var s = sessionStorage.getItem('orbit-iris');
+    if (s) {
+      sessionStorage.removeItem('orbit-iris');
+      var p = JSON.parse(s);
+      if (!rm && Date.now() - p.t < 4000) {
+        h.style.setProperty('--ix', p.x + '%'); h.style.setProperty('--iy', p.y + '%');
+        h.classList.add('iris-in');
+      }
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font: 16px/1.6 Inter, system-ui, sans-serif;
-    }
-    a { color: inherit; text-decoration: none; }
-    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
-
-    nav {
-      position: sticky; top: 0; z-index: 10;
-      backdrop-filter: blur(10px);
-      background: rgba(11, 13, 18, .75);
-      border-bottom: 1px solid var(--line);
-    }
-    nav .wrap { display: flex; justify-content: space-between; align-items: center; height: 64px; }
-    .logo { font-family: "Space Grotesk"; font-weight: 700; font-size: 20px; }
-    .logo span { color: var(--accent); }
-    nav ul { display: flex; gap: 28px; list-style: none; font-size: 14px; color: var(--muted); }
-    nav ul a:hover { color: var(--text); }
-
-    header { padding: 120px 0 100px; }
-    .tag {
-      display: inline-block; font-size: 13px; color: var(--accent);
-      border: 1px solid var(--line); border-radius: 99px; padding: 4px 14px; margin-bottom: 24px;
-    }
-    h1 {
-      font-family: "Space Grotesk"; font-weight: 700;
-      font-size: clamp(40px, 7vw, 76px); line-height: 1.05; letter-spacing: -0.02em;
-    }
-    h1 em { font-style: normal; color: var(--accent); }
-    header p { color: var(--muted); max-width: 560px; margin: 24px 0 36px; font-size: 18px; }
-    .btns { display: flex; gap: 12px; flex-wrap: wrap; }
-    .btn {
-      padding: 12px 22px; border-radius: 10px; font-weight: 500; font-size: 15px;
-      border: 1px solid var(--line); transition: .2s;
-    }
-    .btn.primary { background: var(--accent); color: #06110c; border-color: var(--accent); }
-    .btn:hover { transform: translateY(-2px); }
-
-    section { padding: 80px 0; border-top: 1px solid var(--line); }
-    h2 { font-family: "Space Grotesk"; font-size: 32px; margin-bottom: 36px; }
-    h2 small { display: block; font-size: 13px; color: var(--accent); font-weight: 500; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 6px; }
-
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-    .card {
-      background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
-      padding: 28px; transition: .25s;
-    }
-    .card:hover { border-color: var(--accent); transform: translateY(-4px); }
-    .card .thumb {
-      height: 140px; border-radius: 10px; margin-bottom: 20px;
-      background: linear-gradient(135deg, var(--c1), var(--c2));
-    }
-    .card h3 { font-family: "Space Grotesk"; font-size: 20px; margin-bottom: 8px; }
-    .card p { color: var(--muted); font-size: 15px; }
-    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
-    .chips span { font-size: 12px; color: var(--muted); border: 1px solid var(--line); padding: 3px 10px; border-radius: 99px; }
-
-    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
-    .skills span { background: var(--panel); border: 1px solid var(--line); padding: 10px 18px; border-radius: 10px; font-size: 15px; }
-
-    .contact { text-align: center; }
-    .contact p { color: var(--muted); margin: -20px auto 32px; max-width: 480px; }
-    .contact .btns { justify-content: center; }
-
-    footer { text-align: center; padding: 32px 0; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); }
-
-    @media (max-width: 600px) {
-      .wrap { padding: 0 16px; }
-      nav ul { gap: 16px; }
-      header { padding: 80px 0 60px; }
-    }
-  </style>
+  } catch (e) {}
+})(document);
+</script>
 </head>
-<body>
-  <nav>
-    <div class="wrap">
-      <a href="#" class="logo">junaid<span>.</span></a>
-      <ul>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+<body class="page-home">
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr" data-content="NAVIGATION: final sitemap labels (max 12 characters each), phone number for the Index menu, 5 product-group names with live counts, search index of products and Journal posts">
+  <a class="hdr__brand" href="index.html" aria-label="C°LB home">
+    <img class="logo logo--d" src="shared/brand/clb-logo-black.svg" alt="" width="73" height="28">
+    <img class="logo logo--l" src="shared/brand/clb-logo-white.svg" alt="" width="73" height="28">
+  </a>
+  <nav class="hdr__nav" aria-label="Main">
+    <ul><li><a href="products.html">Products</a></li><li><a href="solutions.html">Solutions</a></li><li><a href="projects.html#applications">Applications</a></li><li><a href="projects.html">Projects</a></li><li><a href="journal.html">Journal</a></li><li><a href="about.html">About</a></li></ul>
+  </nav>
+  <div class="hdr__tools">
+    <button class="hdr__icon" type="button" data-search-open aria-label="Search products, projects and the Journal"><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg></button>
+    <a class="hdr__spec" href="contact.html#quote"><span class="hdr__spec-l">Spec list</span><span class="count" data-spec-count>0</span></a>
+    <a class="btn btn--accent btn--sm hdr__quote" data-magnetic href="contact.html#quote"><span>Request a quote</span></a>
+    <button class="hdr__menu" type="button" aria-expanded="false" aria-controls="index-menu" data-menu-btn><span class="hdr__menu-ring" aria-hidden="true"></span><span class="hdr__menu-l">Index</span></button>
+  </div>
+</header>
+
+<div class="menu" id="index-menu" role="dialog" aria-modal="true" aria-label="Site index" hidden>
+  <div class="menu__inner">
+    <nav class="menu__main" aria-label="Site index">
+      <ol>
+        <li><a href="index.html"><i>00</i>Home</a></li>
+        <li><a href="products.html"><i>01</i>Products</a></li>
+        <li><a href="solutions.html"><i>02</i>Solutions</a></li>
+        <li><a href="projects.html#applications"><i>03</i>Applications</a></li>
+        <li><a href="projects.html"><i>04</i>Projects</a></li>
+        <li><a href="journal.html"><i>05</i>Journal</a></li>
+        <li><a href="about.html"><i>06</i>About</a></li>
+        <li><a href="contact.html"><i>07</i>Contact</a></li>
+      </ol>
+    </nav>
+    <div class="menu__side">
+      <div class="menu__block">
+        <h2 class="eyebrow">Product world</h2>
+        <ul class="menu__groups">
+          <li><a href="products.html#indoor">Indoor <span>85</span></a></li>
+          <li><a href="products.html#outdoor">Outdoor <span>64</span></a></li>
+          <li><a href="products.html#industrial">Industrial <span>4</span></a></li>
+          <li><a href="products.html#back-of-house">Back of House <span>11</span></a></li>
+          <li><a href="solutions.html#range">Smart Poles <span>20</span></a></li>
+        </ul>
+      </div>
+      <div class="menu__block">
+        <h2 class="eyebrow">Resources</h2>
+        <ul class="menu__plain">
+          <li><a href="index.html#resources">Catalogue 2026 (PDF)</a></li>
+          <li><a href="product.html#downloads">Datasheets, IES and BIM</a></li>
+          <li><a href="about.html#quality">Certifications</a></li>
+        </ul>
+      </div>
+      <div class="menu__block menu__contact">
+        <a class="num" href="tel:+966114411131">+966 11 441 1131</a>
+        <a href="mailto:info@clb-sa.com">info@clb-sa.com</a>
+        <p>Building 4280, Northern Ring Branch Rd, Hitteen, Riyadh</p>
+      </div>
+    </div>
+    <button class="menu__close" type="button" data-menu-close aria-label="Close index"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ 01 HERO · the aperture ============ -->
+<section class="hero field field--bone" id="hero" data-field="bone" data-hero data-content="HERO: 1 photo ≥2000px that still reads when cropped to a circle (lit façade or interior, subject centred) + headline ≤4 words + intro ≤24 words + 2 CTAs. Scroll story captions ≤8 words each">
+  <div class="hero__pin">
+    <div class="hero__stage">
+      <h1 class="hero__h">
+        <span class="hero__l1 mega mega--xl" data-kin>Light</span>
+        <span class="hero__l2 mega mega--xl"><span class="outline" data-kin>in</span> <span data-kin>form.</span></span>
+      </h1>
+
+      <div class="ap" data-ap aria-hidden="true">
+        <div class="ap__disc">
+          <img class="ap__img" src="shared/img/clb/site/collection-outdoor.jpg" alt="" width="1008" height="1800" fetchpriority="high">
+          <span class="ap__face"></span>
+          <svg class="ap__blades" viewBox="-100 -100 200 200" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+        <svg class="ap__text" viewBox="0 0 200 200">
+          <defs><path id="ap-circle" d="M100,100 m-92,0 a92,92 0 1,1 184,0 a92,92 0 1,1 -184,0"/></defs>
+          <text><textPath href="#ap-circle">ARCHITECTURAL LIGHTING · RIYADH · SINCE 1976 · INDOOR · OUTDOOR · SMART POLES · </textPath></text>
+        </svg>
+      </div>
+
+      <svg class="beamfx" data-beamfx aria-hidden="true" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="hb-cone" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#FFFDF8" stop-opacity=".95"/>
+            <stop offset=".55" stop-color="#F1ECE3" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#F1ECE3" stop-opacity=".22"/>
+          </linearGradient>
+          <radialGradient id="hb-pool">
+            <stop offset="0" stop-color="#FFFDF8" stop-opacity="1"/>
+            <stop offset=".62" stop-color="#F1ECE3" stop-opacity=".9"/>
+            <stop offset="1" stop-color="#F1ECE3" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <line class="beamfx__floor" x1="0" y1="0" x2="0" y2="0"/>
+        <polygon class="beamfx__cone" fill="url(#hb-cone)" points="0,0 0,0 0,0"/>
+        <ellipse class="beamfx__pool" fill="url(#hb-pool)" cx="0" cy="0" rx="0" ry="0"/>
+        <g class="beamfx__dims">
+          <line class="beamfx__dim" x1="0" y1="0" x2="0" y2="0"/>
+          <line class="beamfx__tick a" x1="0" y1="0" x2="0" y2="0"/>
+          <line class="beamfx__tick b" x1="0" y1="0" x2="0" y2="0"/>
+          <text class="beamfx__label" x="0" y="0" text-anchor="middle">Ø 4.2 m</text>
+          <path class="beamfx__arc" d=""/>
+          <text class="beamfx__angle" x="0" y="0" text-anchor="middle">36°</text>
+        </g>
+        <circle class="beamfx__dot" cx="0" cy="0" r="0"/>
+      </svg>
+
+      <div class="hero__meta">
+        <p class="hero__intro">Architectural luminaires, controls and smart poles, drawn with a compass in Riyadh since 1976. Specified across the Kingdom.</p>
+        <div class="btn-row">
+          <a class="btn btn--accent" data-magnetic href="products.html"><span>Explore 164 luminaires</span></a>
+          <a class="btn btn--ghost" data-magnetic href="contact.html#spec"><span>Talk to a specialist</span></a>
+        </div>
+      </div>
+      <p class="hero__read mono" aria-hidden="true"><span class="hero__read-dot"></span><span data-hero-read>Aperture opening</span></p>
+      <p class="hero__scroll mono" aria-hidden="true"><span class="hero__scroll-ring"></span>Scroll the circle</p>
+
+      <div class="hero__cap hero__cap--b" aria-hidden="true">
+        <p class="eyebrow eyebrow--plain">Act 2 · The fitting</p>
+        <p class="hero__cap-h">Every C°LB luminaire begins as a circle.</p>
+      </div>
+      <div class="hero__cap hero__cap--c" aria-hidden="true">
+        <p class="eyebrow eyebrow--plain">Act 3 · The beam</p>
+        <p class="hero__cap-h">…and lands as a circle of light.</p>
+      </div>
+      <div class="hero__cap hero__cap--d" aria-hidden="true">
+        <p class="hero__cap-xl">Light is <span class="outline">geometry.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 MANIFESTO ============ -->
+<section class="mani field field--bone" id="manifesto" data-field="bone" data-content="BRAND STATEMENT: 1 sentence ≤18 words + 3 principles (title ≤2 words, 20-word proof line each). Marketing to confirm claims">
+  <span class="mani__dot" aria-hidden="true"></span>
+  <span class="mani__thread" aria-hidden="true"></span>
+  <div class="wrap">
+    <p class="eyebrow mani__eyebrow">01 · The idea</p>
+    <h2 class="mani__h lines">
+      <span class="line"><span>The <span class="mani__deg">°</span> in C°LB</span></span>
+      <span class="line"><span>is not a <span class="outline">symbol.</span></span></span>
+      <span class="line"><span>It’s a <em class="mani__em">shape.</em></span></span>
+    </h2>
+    <ol class="mani__trio">
+      <li class="rv">
+        <svg class="mani__glyph" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44" fill="none" stroke="currentColor" stroke-width="14"/><circle cx="60" cy="60" r="14" class="g-accent"/></svg>
+        <h3 class="h4">A circle</h3>
+        <p>The aperture. Every downlight, spot and uplight we make starts as a perfect round opening, machined to the tenth of a millimetre.</p>
+      </li>
+      <li class="rv rv-d1">
+        <svg class="mani__glyph" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 16 22 104h76z" class="g-accent" opacity=".9"/><circle cx="60" cy="16" r="9" fill="currentColor"/><path d="M42 58a26 26 0 0 0 36 0" fill="none" stroke="currentColor" stroke-width="4"/></svg>
+        <h3 class="h4">An angle</h3>
+        <p>The beam. From a 10° pin spot to a 60° wash, the angle decides what is seen, what is felt and what stays in shadow.</p>
+      </li>
+      <li class="rv rv-d2">
+        <svg class="mani__glyph" viewBox="0 0 120 120" aria-hidden="true"><ellipse cx="60" cy="60" rx="50" ry="20" fill="none" stroke="currentColor" stroke-width="4"/><rect x="55" y="12" width="10" height="96" rx="5" fill="currentColor"/><circle cx="12" cy="60" r="8" class="g-accent"/><circle cx="96" cy="70" r="6" class="g-accent"/></svg>
+        <h3 class="h4">An orbit</h3>
+        <p>The system. Light, 5G, CCTV, sensors and screens orbit a single smart pole, run by KNX, DALI or DMX controls.</p>
+      </li>
+    </ol>
+  </div>
+  <div class="mq fx-brass" aria-label="Sectors we light">
+    <div class="marquee" style="--mq-dur:42s">
+      <div class="marquee__track">
+        <span class="marquee__item">Hospitality</span><span class="marquee__item mq__ring" aria-hidden="true"></span>
+        <span class="marquee__item outline">Retail</span><span class="marquee__item mq__ring" aria-hidden="true"></span>
+        <span class="marquee__item">Workplace</span><span class="marquee__item mq__ring" aria-hidden="true"></span>
+        <span class="marquee__item outline">Residential</span><span class="marquee__item mq__ring" aria-hidden="true"></span>
+        <span class="marquee__item">Urban &amp; Streets</span><span class="marquee__item mq__ring" aria-hidden="true"></span>
+        <span class="marquee__item outline">Façade &amp; Landscape</span><span class="marquee__item mq__ring" aria-hidden="true"></span>
+      </div>
+      <div class="marquee__track" aria-hidden="true">
+        <span class="marquee__item">Hospitality</span><span class="marquee__item mq__ring"></span>
+        <span class="marquee__item outline">Retail</span><span class="marquee__item mq__ring"></span>
+        <span class="marquee__item">Workplace</span><span class="marquee__item mq__ring"></span>
+        <span class="marquee__item outline">Residential</span><span class="marquee__item mq__ring"></span>
+        <span class="marquee__item">Urban &amp; Streets</span><span class="marquee__item mq__ring"></span>
+        <span class="marquee__item outline">Façade &amp; Landscape</span><span class="marquee__item mq__ring"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 BEAM ANGLE PLAYGROUND ============ -->
+<section class="beam field field--ink" id="beam" data-field="ink" data-content="BEAM PLAYGROUND: approved beam options per family (10–60°), 1 cut-out on white per family (≥1200px), 1-line use case each. Pool sizes come from the IES files once supplied">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <p class="eyebrow eyebrow--dot">02 · Beam angle</p>
+        <h2 class="h1 lines"><span class="line"><span>Pull the</span></span><span class="line"><span class="outline">beam.</span></span></h2>
+      </div>
+      <div class="shead__aside">
+        <p class="lede">One number changes a room: the beam angle. Grab the edge of the cone and drag. Narrow beams pick out a single object; wide ones wash a whole floor.</p>
+      </div>
+    </div>
+
+    <div class="beam__ui">
+      <div class="beam__stage" data-beam tabindex="0" role="slider" aria-label="Beam angle. Use left and right arrow keys or drag the edge of the cone" aria-valuemin="10" aria-valuemax="60" aria-valuenow="24" aria-valuetext="24 degrees, narrow spot">
+        <svg class="beam__svg" viewBox="0 0 1000 640" aria-hidden="true">
+          <defs>
+            <linearGradient id="bp-cone" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#FFF8EA" stop-opacity=".9"/>
+              <stop offset="1" stop-color="#C08A3E" stop-opacity=".28"/>
+            </linearGradient>
+            <radialGradient id="bp-pool">
+              <stop offset="0" stop-color="#FFF8EA"/>
+              <stop offset=".7" stop-color="#F1D9A8" stop-opacity=".85"/>
+              <stop offset="1" stop-color="#C08A3E" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <line class="bp-ceil" x1="40" y1="52" x2="960" y2="52"/>
+          <rect class="bp-lum" x="470" y="40" width="60" height="22" rx="4"/>
+          <circle class="bp-lum-eye" cx="500" cy="64" r="9"/>
+          <polygon class="bp-cone" fill="url(#bp-cone)" points="500,70 400,560 600,560"/>
+          <ellipse class="bp-pool" fill="url(#bp-pool)" cx="500" cy="560" rx="100" ry="20"/>
+          <line class="bp-floor" x1="40" y1="560" x2="960" y2="560"/>
+          <g class="bp-obj" data-obj="0"><rect x="196" y="470" width="58" height="90" rx="29"/><text x="225" y="600" text-anchor="middle">Vase</text></g>
+          <g class="bp-obj" data-obj="1"><rect x="476" y="500" width="48" height="60"/><circle cx="500" cy="474" r="26"/><text x="500" y="600" text-anchor="middle">Sculpture</text></g>
+          <g class="bp-obj" data-obj="2"><path d="M720 560h96l-48-88z"/><text x="768" y="600" text-anchor="middle">Plinth</text></g>
+          <line class="bp-edge a" x1="500" y1="70" x2="400" y2="560"/>
+          <line class="bp-edge b" x1="500" y1="70" x2="600" y2="560"/>
+          <path class="bp-arc" d="M470 140 A 72 72 0 0 0 530 140"/>
+          <text class="bp-arc-t" x="500" y="176" text-anchor="middle">24°</text>
+          <g class="bp-handle a"><circle r="22"/><path d="M-7 0h14M-7 0l4-4M-7 0l4 4M7 0l-4-4M7 0l-4 4"/></g>
+          <g class="bp-handle b"><circle r="22"/><path d="M-7 0h14M-7 0l4-4M-7 0l4 4M7 0l-4-4M7 0l-4 4"/></g>
+          <g class="bp-dim"><line x1="400" y1="616" x2="600" y2="616"/><text x="500" y="636" text-anchor="middle">Pool Ø 2.1 m at 4.9 m</text></g>
+        </svg>
+        <p class="beam__hint mono" aria-hidden="true"><span>⟵</span> drag the edge <span>⟶</span></p>
+      </div>
+
+      <div class="beam__read" aria-live="polite">
+        <p class="beam__deg"><span class="outline" data-beam-deg>24</span><span class="beam__deg-sign" aria-hidden="true"></span></p>
+        <p class="beam__family h3" data-beam-family>Narrow spot</p>
+        <p class="beam__use muted" data-beam-use>Accent light: a single object pops while the room stays calm.</p>
+        <figure class="beam__prod">
+          <span class="beam__prod-disc"><img data-beam-img src="shared/img/products/keros.jpg" alt="Keros A recessed spotlight" width="800" height="800" loading="lazy"></span>
+          <figcaption><span class="mono small">Matching family</span><b data-beam-prod>Spotlights · Keros A</b><a class="link-arrow" data-beam-link href="products.html#spotlights">See the family</a></figcaption>
+        </figure>
+        <div class="beam__presets" role="group" aria-label="Beam presets">
+          <button class="chip" type="button" data-beam-set="10">10°</button>
+          <button class="chip" type="button" data-beam-set="24" aria-pressed="true">24°</button>
+          <button class="chip" type="button" data-beam-set="36">36°</button>
+          <button class="chip" type="button" data-beam-set="60">60°</button>
+        </div>
+        <p class="beam__lit mono small"><span data-beam-lit>1 of 3</span> objects in the light</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 DIAL · product world ============ -->
+<section class="world field field--brass" id="world" data-field="brass" data-world data-content="PRODUCT WORLD: 1 hero cut-out on white per group (≥2000px, centred, 10% margin), group name, 16-word description, category list. Counts update from the product database">
+  <div class="wrap world__grid">
+    <div class="world__copy">
+      <p class="eyebrow">03 · Product world</p>
+      <h2 class="h1 lines"><span class="line"><span>Turn the</span></span><span class="line"><span>dial<span class="u-disc"></span></span></span></h2>
+      <div class="world__info" data-world-info aria-live="polite">
+        <p class="world__name h2" data-w-name>Indoor</p>
+        <p class="world__desc" data-w-desc>Downlights, spotlights, magnetic and track systems, linear and strip light for hotels, homes, offices and retail.</p>
+        <ul class="world__cats" data-w-cats><li>Downlights</li><li>Spotlights</li><li>Magnetic</li><li>Track</li><li>Linear</li><li>Strip</li><li>Panel</li></ul>
+        <a class="btn btn--accent" data-magnetic data-w-link href="products.html#indoor"><span data-w-cta>Explore Indoor</span></a>
+      </div>
+      <p class="world__help mono small">Drag the dial, click a name, or use the arrow keys.</p>
+    </div>
+
+    <div class="dial" data-dial>
+      <div class="dial__marker" aria-hidden="true"></div>
+      <div class="dial__face" data-dial-face role="radiogroup" aria-label="Product groups">
+        <svg class="dial__ticks" viewBox="0 0 400 400" aria-hidden="true"></svg>
+        <button class="dial__opt" type="button" role="radio" aria-checked="true" tabindex="0" style="--a:0deg" data-i="0" data-field-for="brass"><span>Indoor</span></button>
+        <button class="dial__opt" type="button" role="radio" aria-checked="false" tabindex="-1" style="--a:72deg" data-i="1" data-field-for="cobalt"><span>Outdoor</span></button>
+        <button class="dial__opt" type="button" role="radio" aria-checked="false" tabindex="-1" style="--a:144deg" data-i="2" data-field-for="ink"><span>Industrial</span></button>
+        <button class="dial__opt" type="button" role="radio" aria-checked="false" tabindex="-1" style="--a:216deg" data-i="3" data-field-for="bone"><span>Back of House</span></button>
+        <button class="dial__opt" type="button" role="radio" aria-checked="false" tabindex="-1" style="--a:288deg" data-i="4" data-field-for="paper"><span>Smart Poles</span></button>
+      </div>
+      <div class="dial__center">
+        <div class="dial__hero"><img data-w-img src="shared/img/products/tl3-series.jpg" alt="TL3 track spotlight, Indoor range" width="800" height="800" loading="lazy"></div>
+        <p class="dial__count"><span class="outline" data-w-count>85</span><small>luminaires</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 RAIL · categories ============ -->
+<section class="rail field field--bone" id="categories" data-field="bone" data-rail data-content="CATEGORIES: 1 cut-out on white per category (≥1600px, centred), category name ≤20 characters, live count. Order of the 20 categories set by Marketing">
+  <div class="rail__pin">
+    <div class="rail__head wrap">
+      <div>
+        <p class="eyebrow">04 · Categories</p>
+        <h2 class="h2">20 ways to <span class="outline">shape</span> light</h2>
+      </div>
+      <div class="rail__progress" aria-hidden="true">
+        <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" class="rp-bg"/><circle cx="30" cy="30" r="26" class="rp-fg" data-rail-ring/></svg>
+        <span class="mono" data-rail-n>01 / 20</span>
+      </div>
+    </div>
+    <div class="rail__vp">
+      <ol class="rail__track" data-rail-track>
+        <li class="rc rc--circle"><a href="products.html#spotlights"><span class="rc__num">01</span><span class="rc__shape"><img src="shared/img/products/keros.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Spotlights</span><span class="rc__count">38 products · Indoor</span></a></li>
+        <li class="rc rc--arch"><a href="products.html#downlights"><span class="rc__num">02</span><span class="rc__shape"><img src="shared/img/products/neptune.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Downlights</span><span class="rc__count">14 products · Indoor</span></a></li>
+        <li class="rc rc--circle rc--cobalt"><a href="products.html#magnetic-spotlights"><span class="rc__num">03</span><span class="rc__shape"><img src="shared/img/products/albus.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Magnetic spots</span><span class="rc__count">5 products · Indoor</span></a></li>
+        <li class="rc rc--half"><a href="products.html#track-lights"><span class="rc__num">04</span><span class="rc__shape"><img src="shared/img/products/tl3-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Track lights</span><span class="rc__count">5 products · Indoor</span></a></li>
+        <li class="rc rc--arch rc--brass"><a href="products.html#linear-lights"><span class="rc__num">05</span><span class="rc__shape"><img src="shared/img/products/s40-a-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Linear lights</span><span class="rc__count">15 products · Indoor</span></a></li>
+        <li class="rc rc--circle"><a href="products.html#strip-lights"><span class="rc__num">06</span><span class="rc__shape"><img src="shared/img/products/high-density-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Strip lights</span><span class="rc__count">7 products · Indoor</span></a></li>
+        <li class="rc rc--arch"><a href="products.html#inground-up-lights"><span class="rc__num">07</span><span class="rc__shape"><img src="shared/img/products/al-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Inground uplights</span><span class="rc__count">11 products · Outdoor</span></a></li>
+        <li class="rc rc--circle rc--ink"><a href="products.html#bollards"><span class="rc__num">08</span><span class="rc__shape"><img src="shared/img/products/bl3-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Bollards</span><span class="rc__count">6 products · Outdoor</span></a></li>
+        <li class="rc rc--half"><a href="products.html#flood-lights"><span class="rc__num">09</span><span class="rc__shape"><img src="shared/img/products/fl1.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Floodlights</span><span class="rc__count">5 products · Outdoor</span></a></li>
+        <li class="rc rc--arch rc--cobalt"><a href="products.html#linear-wall-washers"><span class="rc__num">10</span><span class="rc__shape"><img src="shared/img/products/lrs-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Wall washers</span><span class="rc__count">4 products · Outdoor</span></a></li>
+        <li class="rc rc--circle"><a href="products.html#surface-mounted-wall-lights"><span class="rc__num">11</span><span class="rc__shape"><img src="shared/img/products/sm1-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Wall lights</span><span class="rc__count">12 products · Outdoor</span></a></li>
+        <li class="rc rc--arch"><a href="products.html#step-lights"><span class="rc__num">12</span><span class="rc__shape"><img src="shared/img/products/wl2-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Step lights</span><span class="rc__count">5 products · Outdoor</span></a></li>
+        <li class="rc rc--half rc--brass"><a href="products.html#handrail-lights"><span class="rc__num">13</span><span class="rc__shape"><img src="shared/img/products/hrl-1.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Handrail lights</span><span class="rc__count">7 products · Outdoor</span></a></li>
+        <li class="rc rc--circle"><a href="products.html#neon-flex"><span class="rc__num">14</span><span class="rc__shape"><img src="shared/img/products/neon-flex-612st-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Neon flex</span><span class="rc__count">9 products · Outdoor</span></a></li>
+        <li class="rc rc--arch"><a href="products.html#spike-lights"><span class="rc__num">15</span><span class="rc__shape"><img src="shared/img/products/spk-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Spike lights</span><span class="rc__count">2 products · Outdoor</span></a></li>
+        <li class="rc rc--circle rc--cobalt"><a href="products.html#streetlights"><span class="rc__num">16</span><span class="rc__shape"><img src="shared/img/products/st1-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Streetlights</span><span class="rc__count">2 products · Outdoor</span></a></li>
+        <li class="rc rc--half"><a href="products.html#brick-lights"><span class="rc__num">17</span><span class="rc__shape"><img src="shared/img/products/brk-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Brick lights</span><span class="rc__count">1 product · Outdoor</span></a></li>
+        <li class="rc rc--arch rc--ink"><a href="products.html#industrial"><span class="rc__num">18</span><span class="rc__shape"><img src="shared/img/products/hbr2-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">High-bays</span><span class="rc__count">4 products · Industrial</span></a></li>
+        <li class="rc rc--circle"><a href="products.html#back-of-house"><span class="rc__num">19</span><span class="rc__shape"><img src="shared/img/products/bh2-series.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Back of house</span><span class="rc__count">11 products · BOH</span></a></li>
+        <li class="rc rc--arch rc--brass"><a href="products.html#panel-lights"><span class="rc__num">20</span><span class="rc__shape"><img src="shared/img/products/panel-lights.jpg" alt="" width="800" height="800" loading="lazy"></span><span class="rc__name">Panel lights</span><span class="rc__count">1 product · Indoor</span></a></li>
+        <li class="rc rc--end"><a href="products.html"><span class="rc__end-ring" aria-hidden="true"></span><span class="rc__name">All 164<br>luminaires</span><span class="rc__count">Filter by IP, beam and category</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 SOLUTIONS BENTO ============ -->
+<section class="sol field field--ink" id="solutions" data-field="ink" data-content="SOLUTIONS: per solution a name, promise ≤15 words, 3 system keywords and a landing page. Tile animations are code; the smart-pole tile uses 1 pole render">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <p class="eyebrow eyebrow--dot">05 · Solutions</p>
+        <h2 class="h1 lines"><span class="line"><span>Systems,</span></span><span class="line"><span class="outline">not fittings.</span></span></h2>
+      </div>
+      <div class="shead__aside"><p class="lede">Light is now infrastructure. Our engineers design, commission and maintain the systems around the luminaire, from a façade of pixels to a street of smart poles.</p></div>
+    </div>
+
+    <div class="bento">
+      <a class="tile tile--facade fx-cobalt" href="article.html" data-cursor="Explore">
+        <div class="tile__px" data-pixels aria-hidden="true"></div>
+        <div class="tile__body">
+          <span class="tag">Solution 01</span>
+          <h3 class="h3">Media Façade</h3>
+          <p>Buildings that speak in pixels. Pixel pitch, transparency and content planned for the Saudi sun.</p>
+          <span class="tile__kw mono">LED mesh · Pixel bars · Content servers</span>
+        </div>
+      </a>
+      <a class="tile tile--poles fx-bone" href="solutions.html" data-cursor="Explore">
+        <div class="tile__pole" aria-hidden="true">
+          <span class="tile__pole-img"><img src="shared/img/poles/orbit.jpg" alt="" width="989" height="1400" loading="lazy"></span>
+          <span class="tile__orbit"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+        </div>
+        <div class="tile__body">
+          <span class="tag">Solution 02</span>
+          <h3 class="h3">Smart Poles</h3>
+          <p>20 designs. Up to 8 systems on one pole.</p>
+        </div>
+      </a>
+      <a class="tile tile--controls fx-brass" href="journal.html#maintenance" data-cursor="Explore">
+        <div class="tile__rings" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="tile__body">
+          <span class="tag">Solution 03</span>
+          <h3 class="h3">Lighting Controls</h3>
+          <p>Scenes, schedules and sensors on open protocols.</p>
+          <span class="tile__proto"><span>KNX</span><span>DALI</span><span>DMX</span></span>
+        </div>
+      </a>
+      <a class="tile tile--maint fx-paper" href="journal.html#maintenance" data-cursor="Explore">
+        <svg class="tile__gauge" viewBox="0 0 200 200" aria-hidden="true">
+          <circle cx="100" cy="100" r="78" class="g-track"/>
+          <circle cx="100" cy="100" r="78" class="g-fill"/>
+          <circle cx="100" cy="100" r="54" class="g-track thin"/>
+          <circle cx="100" cy="100" r="54" class="g-fill2"/>
+          <line x1="100" y1="100" x2="100" y2="34" class="g-hand"/>
+          <circle cx="100" cy="100" r="7" class="g-pin"/>
+        </svg>
+        <div class="tile__body">
+          <span class="tag">Solution 04</span>
+          <h3 class="h3">Maintenance &amp; Upgrades</h3>
+          <p>Audit, repair and upgrade of existing KNX and DALI systems, on a plan or on call.</p>
+        </div>
+      </a>
+      <div class="tile tile--stat fx-ink">
+        <p class="tile__big outline">24/7</p>
+        <p>Service line for contracted control systems. Response within 4 working hours in Riyadh <span class="muted">(sample SLA)</span>.</p>
+      </div>
+      <a class="tile tile--talk fx-cobalt" href="contact.html#spec" data-cursor="Talk">
+        <span class="tile__talk-ring" aria-hidden="true"></span>
+        <div class="tile__body">
+          <h3 class="h3">Plan a system with an engineer</h3>
+          <span class="link-arrow">Book a call</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 NUMBERS ============ -->
+<section class="nums field field--cobalt" id="numbers" data-field="cobalt" data-content="NUMBERS: 4 verified figures with a label ≤6 words each + official names of vendor registrations. Marketing to confirm all figures">
+  <div class="wrap">
+    <p class="eyebrow">06 · In numbers</p>
+    <ul class="nums__list">
+      <li class="nums__item"><span class="nums__n outline" data-count="50">50</span><span class="nums__l">years of light, 1976 → 2026</span></li>
+      <li class="nums__item"><span class="nums__n outline" data-count="164">164</span><span class="nums__l">luminaires in the catalogue</span></li>
+      <li class="nums__item"><span class="nums__n outline" data-count="20">20</span><span class="nums__l">smart pole designs</span></li>
+      <li class="nums__item"><span class="nums__n outline" data-count="8">8</span><span class="nums__l">systems on a single pole</span></li>
+    </ul>
+  </div>
+  <div class="vend" aria-label="Registered vendor with">
+    <p class="vend__l mono">Registered vendor</p>
+    <div class="marquee" style="--mq-dur:36s">
+      <div class="marquee__track"><span class="marquee__item">NEOM</span><span class="marquee__item">◯</span><span class="marquee__item">Qiddiya</span><span class="marquee__item">◯</span><span class="marquee__item">ROSHN</span><span class="marquee__item">◯</span><span class="marquee__item">Red Sea Global</span><span class="marquee__item">◯</span><span class="marquee__item">Diriyah</span><span class="marquee__item">◯</span><span class="marquee__item">Aramco</span><span class="marquee__item">◯</span><span class="marquee__item">SEC</span><span class="marquee__item">◯</span><span class="marquee__item">STC</span><span class="marquee__item">◯</span></div>
+      <div class="marquee__track" aria-hidden="true"><span class="marquee__item">NEOM</span><span class="marquee__item">◯</span><span class="marquee__item">Qiddiya</span><span class="marquee__item">◯</span><span class="marquee__item">ROSHN</span><span class="marquee__item">◯</span><span class="marquee__item">Red Sea Global</span><span class="marquee__item">◯</span><span class="marquee__item">Diriyah</span><span class="marquee__item">◯</span><span class="marquee__item">Aramco</span><span class="marquee__item">◯</span><span class="marquee__item">SEC</span><span class="marquee__item">◯</span><span class="marquee__item">STC</span><span class="marquee__item">◯</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 08 PROJECTS ============ -->
+<section class="hprj field field--bone section" id="projects" data-field="bone" data-content="PROJECTS (Marketing to supply): per project 6–10 photos ≥2400px, client, location, C°LB products used, 80-word summary. Until then these tiles use labelled C°LB brand imagery">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <p class="eyebrow">07 · Projects</p>
+        <h2 class="h1 lines"><span class="line"><span>Light in</span></span><span class="line"><span class="outline">the wild.</span></span></h2>
+      </div>
+      <div class="shead__aside">
+        <p class="lede">A growing portfolio across the Kingdom. These are sample skeletons until project photography arrives.</p>
+        <a class="link-arrow" href="projects.html">All projects</a>
+      </div>
+    </div>
+    <ul class="hprj__grid">
+      <li class="hprj__item hprj__item--circle rv" data-content="PROJECT (Marketing to supply): 6–10 photos ≥2400px, client, location, C°LB products used, 80-word summary">
+        <a href="projects.html#case">
+          <span class="mask mask--circle"><img src="shared/img/clb/site/clb-hero.jpg" alt="Sample visual: dark luxury interior with linear and accent lighting" width="2000" height="1333" loading="lazy"></span>
+          <span class="tag tag--sample">Sample visual</span>
+          <span class="h4">Hospitality project · Riyadh</span>
+          <span class="muted small">Magnetic track · Spotlights · DALI scenes</span>
+        </a>
+      </li>
+      <li class="hprj__item hprj__item--arch rv rv-d1" data-content="PROJECT (Marketing to supply): 6–10 photos ≥2400px, client, location, C°LB products used, 80-word summary">
+        <a href="projects.html#case">
+          <span class="mask mask--arch"><img src="shared/img/clb/brochure/pole-scene-05.jpg" alt="Sample visual: city boulevard lined with C°LB smart poles" width="2000" height="1333" loading="lazy"></span>
+          <span class="tag tag--sample">Sample visual</span>
+          <span class="h4">Urban boulevard · Smart poles</span>
+          <span class="muted small">Nexus poles · 5G · CCTV · EV charging</span>
+        </a>
+      </li>
+      <li class="hprj__item hprj__item--half rv rv-d2" data-content="PROJECT (Marketing to supply): 6–10 photos ≥2400px, client, location, C°LB products used, 80-word summary">
+        <a href="projects.html#case">
+          <span class="mask mask--half"><img src="shared/img/clb/site/collection-outdoor.jpg" alt="Sample visual: modern villa façade lit at night" width="1008" height="1800" loading="lazy"></span>
+          <span class="tag tag--sample">Sample visual</span>
+          <span class="h4">Residential villa · Façade</span>
+          <span class="muted small">Linear wall washers · Inground uplights</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 09 RESOURCES ============ -->
+<section class="res field field--brass section" id="resources" data-field="brass" data-content="CATALOGUE + LIBRARY: print-ready catalogue PDF (≤50 MB) + cover artwork 1240×1754px, edition date; per product datasheet PDF, IES + LDT, Revit .rfa, install guide; certificate PDFs">
+  <div class="wrap res__grid">
+    <div class="res__book" aria-hidden="true">
+      <div class="book">
+        <div class="book__cover">
+          <span class="book__ring"></span>
+          <span class="book__year">2026</span>
+          <img src="shared/brand/clb-logo-black.svg" alt="" width="73" height="28" loading="lazy">
+          <span class="book__t">Catalogue<br>Edition 07</span>
+        </div>
+        <span class="book__spine"></span>
+      </div>
+    </div>
+    <div class="res__copy">
+      <p class="eyebrow">08 · Resources</p>
+      <h2 class="h1">Everything a spec needs.</h2>
+      <p class="lede">The full 2026 catalogue, plus datasheets, photometry and BIM families for every luminaire. Free, no login for consultants.</p>
+      <ul class="res__tiles">
+        <li><a class="dl" href="#" data-dl="Catalogue 2026"><span class="dl__ico"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg></span><b>Catalogue 2026</b><small>PDF · 48 MB · 212 pages</small></a></li>
+        <li><a class="dl" href="product.html#downloads"><span class="dl__ico">PDF</span><b>Datasheets</b><small>164 luminaires</small></a></li>
+        <li><a class="dl" href="product.html#downloads"><span class="dl__ico">IES</span><b>Photometry</b><small>IES + LDT per beam</small></a></li>
+        <li><a class="dl" href="product.html#downloads"><span class="dl__ico">BIM</span><b>Revit families</b><small>.rfa · LOD 300</small></a></li>
       </ul>
     </div>
-  </nav>
+  </div>
+</section>
 
-  <header class="wrap">
-    <div class="tag">● Available for new projects</div>
-    <h1>I build clean,<br><em>fast websites</em><br>that people enjoy.</h1>
-    <p>Developer focused on web apps, automation, and thoughtful interfaces. This page is a quick test deployment.</p>
-    <div class="btns">
-      <a href="#work" class="btn primary">See my work</a>
-      <a href="#contact" class="btn">Get in touch</a>
+<!-- ============ 10 JOURNAL ============ -->
+<section class="hjr field field--paper section" id="journal" data-field="paper" data-content="JOURNAL: 3 latest posts, one per stream. Per post 1 landscape image 3:2 ≥1600px, title ≤90 characters, 25-word excerpt, stream, date">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <p class="eyebrow">09 · Journal</p>
+        <h2 class="h1">Notes on light.</h2>
+      </div>
+      <div class="shead__aside"><p class="lede">Three streams, eight posts each over 90 days: Media Façade, Smart Poles and Maintenance.</p><a class="link-arrow" href="journal.html">Read the Journal</a></div>
     </div>
-  </header>
+    <ul class="posts">
+      <li class="post rv">
+        <a href="article.html">
+          <span class="post__fig post__fig--px fx-cobalt" aria-hidden="true"><span class="px-art"></span></span>
+          <span class="post__meta"><span class="pill pill--cobalt">Media Façade</span><span class="mono small">12 Oct 2026 · 9 min</span></span>
+          <span class="post__t h4">What Is a Media Façade? A Complete Guide for Modern Architecture</span>
+        </a>
+      </li>
+      <li class="post rv rv-d1">
+        <a href="article.html">
+          <span class="post__fig mask mask--circle-sq"><img src="shared/img/clb/brochure/pole-scene-02.jpg" alt="" width="2000" height="1333" loading="lazy"></span>
+          <span class="post__meta"><span class="pill pill--brass">Smart Poles</span><span class="mono small">5 Oct 2026 · 7 min</span></span>
+          <span class="post__t h4">What Are Smart Poles? Complete Guide for Smart City Infrastructure</span>
+        </a>
+      </li>
+      <li class="post rv rv-d2">
+        <a href="article.html">
+          <span class="post__fig post__fig--rings fx-ink" aria-hidden="true"><span class="rings-art"><i></i><i></i><i></i></span></span>
+          <span class="post__meta"><span class="pill pill--ink">Maintenance</span><span class="mono small">28 Sep 2026 · 6 min</span></span>
+          <span class="post__t h4">Why Lighting Control Systems Need Regular Maintenance</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
 
-  <section id="work">
-    <div class="wrap">
-      <h2><small>Selected work</small>Projects</h2>
-      <div class="grid">
-        <div class="card">
-          <div class="thumb" style="--c1:#7cf2c4;--c2:#3b82f6"></div>
-          <h3>Pulse Dashboard</h3>
-          <p>Real-time analytics dashboard with live charts and team sharing.</p>
-          <div class="chips"><span>React</span><span>Node</span><span>Postgres</span></div>
-        </div>
-        <div class="card">
-          <div class="thumb" style="--c1:#f472b6;--c2:#8b5cf6"></div>
-          <h3>Shopfront</h3>
-          <p>Minimal e-commerce storefront with fast checkout and CMS.</p>
-          <div class="chips"><span>Next.js</span><span>Stripe</span></div>
-        </div>
-        <div class="card">
-          <div class="thumb" style="--c1:#fbbf24;--c2:#ef4444"></div>
-          <h3>AutoFlow</h3>
-          <p>Workflow automation tool that connects apps and saves hours a week.</p>
-          <div class="chips"><span>Python</span><span>APIs</span></div>
-        </div>
+</main>
+
+<footer class="ftr field field--ink" data-field="ink" data-content="FOOTER: legal entity name and CR number, social links (LinkedIn, Instagram), newsletter provider, privacy and terms pages, response-time promise for the CTA">
+  <div class="ftr__cta wrap">
+    <p class="eyebrow">Next step</p>
+    <h2 class="ftr__h"><span>Let’s draw</span> <span class="outline">some light.</span></h2>
+    <div class="ftr__actions">
+      <a class="btn-orb" data-magnetic href="contact.html#quote"><span class="btn-orb__ring" aria-hidden="true"></span><span class="btn-orb__l">Request<br>a quote</span></a>
+      <div class="ftr__lines">
+        <a class="link-arrow" href="contact.html#spec">Talk to a specialist</a>
+        <a class="link-arrow" href="product.html#downloads">Download datasheets, IES and BIM</a>
+        <a class="link-arrow" href="contact.html#showroom">Visit the Hitteen showroom</a>
       </div>
     </div>
-  </section>
-
-  <section id="skills">
-    <div class="wrap">
-      <h2><small>Toolbox</small>Skills</h2>
-      <div class="skills">
-        <span>HTML &amp; CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span>
-        <span>Next.js</span><span>Node.js</span><span>Python</span><span>SQL</span>
-        <span>Git</span><span>UI Design</span>
-      </div>
+  </div>
+  <div class="ftr__grid wrap">
+    <div class="ftr__brand">
+      <p>Architectural lighting, controls and smart-city infrastructure from Arak Lighting. Riyadh, since 1976.</p>
+      <form class="nl" data-newsletter novalidate aria-label="Journal newsletter">
+        <label class="sr-only" for="nl-email">Email address</label>
+        <input id="nl-email" type="email" required placeholder="Email for the monthly Journal" autocomplete="email">
+        <button type="submit" aria-label="Subscribe"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </form>
     </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="wrap">
-      <h2><small>Say hello</small>Let's work together</h2>
-      <p>Have a project in mind? I'd love to hear about it.</p>
-      <div class="btns">
-        <a href="https://github.com/junaidatif04" class="btn primary" target="_blank" rel="noopener">GitHub</a>
-      </div>
+    <div class="ftr__col">
+      <h2>Products</h2>
+      <ul><li><a href="products.html#indoor">Indoor</a></li><li><a href="products.html#outdoor">Outdoor</a></li><li><a href="products.html#industrial">Industrial</a></li><li><a href="products.html#back-of-house">Back of House</a></li><li><a href="solutions.html#range">Smart Poles</a></li></ul>
     </div>
-  </section>
+    <div class="ftr__col">
+      <h2>Solutions</h2>
+      <ul><li><a href="journal.html#media-facade">Media Façade</a></li><li><a href="solutions.html">Smart Poles</a></li><li><a href="index.html#solutions">Lighting Controls</a></li><li><a href="journal.html#maintenance">Maintenance</a></li><li><a href="projects.html">Projects</a></li></ul>
+    </div>
+    <div class="ftr__col">
+      <h2>Company</h2>
+      <ul><li><a href="about.html">Story</a></li><li><a href="about.html#quality">Certifications</a></li><li><a href="about.html#vendors">Vendor registrations</a></li><li><a href="journal.html">Journal</a></li><li><a href="index.html#resources">Catalogue 2026</a></li></ul>
+    </div>
+    <div class="ftr__col">
+      <h2>Contact</h2>
+      <ul>
+        <li><a class="num" href="tel:+966114411131">+966 11 441 1131</a></li>
+        <li><a href="mailto:info@clb-sa.com">info@clb-sa.com</a></li>
+        <li><a href="contact.html#showroom">Building 4280, Hitteen</a></li>
+        <li><a href="contact.html#showroom">Sun–Thu · 9:00–18:00</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ftr__mark wrap" aria-hidden="true">
+    <img src="shared/brand/clb-logo-white.svg" alt="" width="624" height="240" loading="lazy">
+    <span class="ftr__orbit"></span>
+  </div>
+  <div class="ftr__legal wrap">
+    <span>© 2026 Arak Lighting. C°LB is a brand of Arak Lighting, Riyadh. Prototype “Orbit”, specs and projects shown are samples.</span>
+    <ul><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="#" aria-label="C°LB on LinkedIn">LinkedIn</a></li><li><a href="#" aria-label="C°LB on Instagram">Instagram</a></li></ul>
+  </div>
+</footer>
 
-  <footer>© <span id="y"></span> Junaid · Built with plain HTML &amp; CSS</footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<button type="button" class="cm-fab" aria-pressed="false" title="Outline every content slot Marketing must supply"><span class="cm-fab__dot" aria-hidden="true"></span><span class="cm-fab__l">Content map</span><span class="cm-fab__n"></span></button>
+<p class="cm-banner" role="status"><span><b>Content map is on.</b> Every dashed outline is a content slot. The blue tag says what Marketing must supply, and in which format.</span></p>
+<div class="toast" role="status" aria-live="polite"><span class="toast__dot" aria-hidden="true"></span><span data-toast-msg>Added to spec list</span><a href="contact.html#quote">View list</a></div>
+
+<div class="search" id="search" role="dialog" aria-modal="true" aria-label="Search" hidden>
+  <div class="search__inner wrap">
+    <label class="sr-only" for="search-q">Search</label>
+    <input id="search-q" class="search__q" type="search" placeholder="Search 164 luminaires, poles, guides…" autocomplete="off">
+    <p class="search__hint">Try “spot”, “IP67”, “bollard”, “KNX”.</p>
+    <ul class="search__res" data-search-results></ul>
+    <button class="search__close" type="button" data-search-close aria-label="Close search"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+</div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__label"></span></div>
+<div class="pool" aria-hidden="true"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0 4.5-4.5M12 15l-4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-prev" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-light" viewBox="0 0 32 32"><circle cx="16" cy="10" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 28l6-13 6 13z" fill="currentColor" opacity=".35"/></symbol>
+<symbol id="i-5g" viewBox="0 0 32 32"><path d="M8 22a11 11 0 0 1 0-12M24 10a11 11 0 0 1 0 12M12 19a5.5 5.5 0 0 1 0-6M20 13a5.5 5.5 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="16" r="2" fill="currentColor"/></symbol>
+<symbol id="i-cctv" viewBox="0 0 32 32"><path d="M5 11l17-5 3 9-17 5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 18l2 6h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="21" cy="11" r="1.6" fill="currentColor"/></symbol>
+<symbol id="i-sensor" viewBox="0 0 32 32"><circle cx="16" cy="16" r="3" fill="currentColor"/><circle cx="16" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3"/><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2" opacity=".5"/></symbol>
+<symbol id="i-screen" viewBox="0 0 32 32"><rect x="7" y="4" width="18" height="22" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 10h10M11 15h10M11 20h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-ev" viewBox="0 0 32 32"><rect x="7" y="5" width="13" height="23" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14.5 10l-3 6h4l-2 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M20 12h3a2 2 0 0 1 2 2v7a2 2 0 0 0 4 0v-9l-3-3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-sos" viewBox="0 0 32 32"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 9v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.5" r="1.6" fill="currentColor"/></symbol>
+<symbol id="i-wifi" viewBox="0 0 32 32"><path d="M4 12a17 17 0 0 1 24 0M8 16.5a11 11 0 0 1 16 0M12 21a5 5 0 0 1 8 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="25" r="2" fill="currentColor"/></symbol>
+</svg>
+
+<script src="assets/main.js?v=20261018276" defer></script>
+<script src="assets/orbit.js?v=20261018276" defer></script>
 </body>
 </html>
